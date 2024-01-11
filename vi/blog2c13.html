@@ -1,0 +1,890 @@
+
+<!doctype html>
+
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
+
+
+
+<!-- Mirrored from www.ultraviewer.net/vi/blog.html?pagenum=13 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jan 2024 09:05:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<style>
+/* page title */
+@media (min-width:320px)  { 
+	.page_title {
+		background: url(../images/sliders/revolution/slider-bg-mobile.jpg) no-repeat center top;
+	}
+}
+@media (min-width:600px) {
+	.page_title {
+		background: url(../images/sliders/revolution/slider-bg.jpg) no-repeat center top;
+	}
+}
+.page_title {
+	width: 100%;
+	min-height: 50px;
+	padding-top: 20px;
+	margin: -20px 0px 0px 0px;
+}
+.page_title .leaft_title {
+	width: 68%;
+	display: block;
+	float: left;
+	text-align: left;
+	margin: 0px 0 0 0px;
+}
+.page_title .leaft_title h1 { 
+	font-size: 22px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.page_title .reght_pagenation {
+	float: right;
+	width: 28%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: right;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 0 0 0px;
+	padding: 7px 0 0px 0px;
+}
+.page_title .reght_pagenation i {
+	color: #eee;
+	margin: 0px 2px 0px 2px;
+}
+.page_title .reght_pagenation a {
+	padding: 0px 0px 0px 0px;
+	color: #eee;
+}
+.page_title .reght_pagenation a:hover {
+	color: #fff;
+}
+	</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+	<meta charset="utf-8">
+	
+	<link rel="alternate" hreflang="en" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="vi" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="sr" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="id" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="zh-tw" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="zh-cn" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="it" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="pl" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="ru" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="pt" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="ro" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="kr" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="jp" href="https://www.ultraviewer.net/">
+	
+	<link rel="alternate" hreflang="th" href="https://www.ultraviewer.net/">
+	
+	<title>Blog - Phần mềm UltraViewer</title>
+	<meta name="description" content="Các bài viết hướng dẫn, nhật ký, các sự kiện thông báo và các thông tin mới về phần mềm UltraViewer" />
+	
+	<link rel="stylesheet" href="../css/blog_gzip.css" type="text/css" />
+	
+	
+    <!-- Favicon --> 
+	<!--<link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon" >-->
+	<link href="https://www.ultraviewer.net/ultraviewer.ico" rel="shortcut icon">
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	 
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap" as="style">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap">
+	
+    <!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    <!-- ######### CSS STYLES ######### -->
+	
+    <link rel="stylesheet" href="../css/reset_gzip.css" type="text/css" />
+	
+	<link rel="stylesheet" href="../css/style-min2_gzip.css" type="text/css" />
+    
+    <!-- responsive devices styles -->
+	<link rel="stylesheet" media="screen" href="../css/responsive-leyouts-min_gzip.css" type="text/css" />
+    
+
+    
+    
+    
+    <!-- jquery jcarousel -->
+    <link rel="stylesheet" type="text/css" href="../js/jcarousel/skin_gzip.css" />
+    
+  
+    <!-- faqs -->
+    <link rel="stylesheet" href="../js/accordion/accordion_gzip.css" type="text/css" media="all">
+
+
+	
+	<script type="text/javascript">
+		var cLanguage = "vi";
+		function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.ultraviewer.net;path=/";
+}
+var offset = new Date().getTimezoneOffset();
+setCookie("timezoneoffset" , offset, 365);
+	</script>
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-8J20SLZ4R2"></script>
+	<script defer>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-8J20SLZ4R2');
+	</script>
+
+<script async src="../../pagead2.googlesyndication.com/pagead/js/fc79d.txt?client=ca-pub-9282100529336347"
+     crossorigin="anonymous"></script>
+	 
+</head>
+
+<body>
+
+
+<div class="site_wrapper">
+	
+    <div class="container_full">
+    
+    	<div class="top_links">
+            <div class="container">
+            	
+			<div class="date_wrap">
+			<b class='date'></b>
+			
+			<script type="text/javascript">
+			function changeLanguage(loc) {
+			window.location = window.location.href.replace( /\/vi\//i , '/' + loc.options[loc.selectedIndex].value + '/');
+			expireDate = new Date();
+			expireDate.setTime(expireDate.getTime() + (86400000)); // 1 Tag
+			document.cookie = "language=" + loc.options[loc.selectedIndex].value + "; expires=" + expireDate.toUTCString() + "; path=/";			
+			}
+			</script>
+			
+            </div><!-- end date -->
+            
+            <div class="top_contact_info">
+                    <ul class="tci_list">
+			
+
+						<li class="email"> 
+						<div class="dropdown">
+						
+						  <a href="https://console.ultraviewer.net/?lang=vi" target="_blank"><strong>Đăng nhập  ▼</strong></a>
+						  
+						  
+						  <div id="myDropdown" class="dropdown-content">
+
+							<a href="https://console.ultraviewer.net/" target="_blank">Trang quản trị</a>
+							 
+						  </div>
+						</div>
+						</li>
+			
+			
+                        <!--<li class="phone">Hotline : 024.7300.9199</li>-->
+                        <li><a target="_blank" href="http://facebook.com/ultraviewer/"><img src="../images/top_si1.png" alt="Facebook" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si2.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si3.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si4.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si5.png" alt="" width="15" height="15"/></a></li>
+                        <li class="country"><a href="#">Ngôn ngữ:</a></li>
+                        <li class="country_select">
+                            <select onchange="changeLanguage(this)">
+							  <option value="en" >English</option>
+							  <option value="it" >Italiano</option>
+							  <option value="pl" >Polskie</option>
+                              <option value="vi" selected>Tiếng Việt</option>
+							  <option value="sr" >Srpski</option>
+							  <option value="id" >Bahasa Indonesia</option>
+							  <option value="ru" >Pусский</option>
+							  <option value="ro" >Română</option>
+							  <option value="pt" >Português</option>
+							  <option value="tw" >正體中文</option>
+							  <option value="cn" >简体中文</option>
+							  <option value="kr" >한국어</option>
+							  <option value="jp" >日本語</option>
+							  <option value="th" >ภาษาไท</option>
+							  <option value="es" >Español</option>
+							  <option value="tr" >Turkish</option>
+							  
+							  <option value="ir" >Persian</option>
+							  
+							  <!--
+                              <option value="fr" >Francais</option>
+                              <option value="it" >Italiano</option>
+							  -->
+                            </select>
+                        </li>  
+                    </ul>
+            </div><!-- end top contact info -->
+                
+            
+            </div>
+    	</div><!-- end top links -->
+        
+        
+        <div class="top_section">
+
+    	<div class="container">
+
+    		<div id="logo">
+			<div class="logo_container" style="display: inline; float:left; margin-top:15px; margin-right:10px" >
+			<img src="../images/logo.png" alt="UltraViewer Logo"/>
+			</div>
+			<a href="index.html" class="site_logo" style="display:inline;"><h1>ULTRA<i>VIEWER</i></h1></a></div><!-- end logo -->
+
+			<nav id="access" class="access" role="navigation">
+
+            
+                <div id="menu" class="menu">
+                    
+					
+                    <ul id="tiny">
+                        <li><a href="index.html" >UltraViewer là gì?</a></li>
+						<li><a href="download.html" >Tải xuống</a></li>
+						<li><a href="faq.html" >Hướng dẫn</a></li>
+
+		<li><a href="pricing.html" >Bảng giá</a></li>
+
+                        <li><a href="blog.html"  class="active">Blog</a></li>
+
+                    </ul>
+                    
+                </div>
+                
+
+			</nav>
+                
+
+		</div> 
+
+	</div>
+    
+   <div class="top_shadow"></div><!-- end shadow -->
+
+</div><!-- end top -->
+
+
+<!-- ######### JS FILES ######### -->
+
+
+
+
+<!-- main menu -->
+<script type="text/javascript" src="../js/mainmenu/ddsmoothmenu_gzip.js" defer></script>
+
+<script type="text/javascript" src="../js/mainmenu/selectnav_gzip.js" defer></script>
+
+<!-- get jQuery from the google apis -->
+<script type="text/javascript" src="../js/universal/jquery191.min_gzip.js" defer></script>
+<!-- jquery jcarousel -->
+<script type="text/javascript" src="../js/jcarousel/jquery.jcarousel.min_gzip.js" defer></script>
+
+<!-- top_menu -->
+	<link rel="stylesheet" type="text/css" href="../js/topmenu/topmenu_gzip.css" />
+	<script src="../js/topmenu/topmenu_gzip.js" defer></script>
+	
+	
+
+<script type="text/javascript" src="../js/mainmenu/scripts_gzip.js" defer></script>
+
+
+
+
+<div class="page_title">
+
+	<div class="container">
+		<div class="leaft_title"><h1>Blog</h1></div>
+        <div class="reght_pagenation"><a href="https://www.ultraviewer.net/">Trang chủ</a> <i>/</i> Blog</div>
+	</div>
+    
+</div><!-- end page title -->
+
+<div class="clearfix"></div>
+
+<div class="container">
+
+	<div class="content_left">
+        	
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/black-screen.png" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>2</strong><i>Tháng 2</i></a>
+				<h1><a href="60100-mot-so-nguyen-nhan-gay-ra-hien-tuong-ket-noi-man-hinh-bi-den.html">Một số nguyên nhân gây ra hiện tượng kết nối màn hình bị đen</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">2 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p>Trong một số trường hợp hiếm gặp, bạn kết nối tới một m&aacute;y kh&aacute;ch h&agrave;ng nhưng m&aacute;y của KH đ&oacute; l&uacute;c n&agrave;o cũng hiện ra m&agrave;n h&igrave;nh đen. D&ugrave; bạn vẫn gửi được tin nhắn chat, điều khiển được chuột v&agrave; b&agrave;n ph&iacute;m nhưng kh&ocirc;n...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/install-font-arial.png" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>1</strong><i>Tháng 2</i></a>
+				<h1><a href="60097-loi-linenumber-4-out-of-memory-co-the-do-may-tinh-thieu-font-arial.html">Lỗi LineNumber = 4, Out Of Memory có thể do máy tính thiếu Font Arial</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">0 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p> H&ocirc;m nay UltraViewer gặp một trường hợp gặp lỗi Out Of Memory, LineNumber = 4. Ch&uacute;ng t&ocirc;i c&oacute; hướng dẫn kh&aacute;ch h&agrave;ng sửa theo c&aacute;ch th&ocirc;ng thường l&agrave; c&agrave;i lại .NET Framework v&agrave; lựa chọn bộ .NET Framework 4 nhưng kh&ocirc;ng được. Sau ...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/ultraviewer-6-0.png" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>28</strong><i>Tháng 12</i></a>
+				<h1><a href="60093-gioi-thieu-phien-ban-6-1.html">Giới thiệu phiên bản 6.1 của UltraViewer</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">2 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p>Gửi qu&yacute; kh&aacute;ch h&agrave;ng, UltraViewer mới ho&agrave;n tất phi&ecirc;n bản 6.1 với một số cải tiến, qu&yacute; kh&aacute;ch h&agrave;ng c&oacute; thể tải trực tiếp tại đường link : http://ultraviewer.net/vi/UltraViewer_setup_6.1_vi.exe hoặc tại trang chủ . Sau đ&acirc;y l&agrave; một s...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/Find-suspicious-service.png" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>24</strong><i>Tháng 12</i></a>
+				<h1><a href="60095-virus-malware-la-gay-ra-hien-tuong-ultraviewer-khong-lay-duoc-id.html">Virus/Mã độc lạ gây ra hiện tượng UltraViewer không lấy được ID</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">0 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p> H&ocirc;m nay UltraViewer nhận được y&ecirc;u cầu hỗ trợ của 1 kh&aacute;ch h&agrave;ng về việc UltraViewer của kh&aacute;ch h&agrave;ng mở l&ecirc;n kh&ocirc;ng lấy được ID. UltraViewer đ&atilde; hướng dẫn kh&aacute;ch h&agrave;ng chỉnh lại port th&agrave;nh 2112, chỉnh lại kết nối trực tiếp qua I...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/server-down.jpg" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>20</strong><i>Tháng 12</i></a>
+				<h1><a href="60094-ultraviewer-xin-loi-vi-viec-ket-noi-bi-mat-on-dinh-trong-thoi-gian-gan-day-thang-12-2017.html">UltraViewer chân thành xin lỗi vì việc kết nối bị mất ổn định trong thời gian gần đây (tháng 12/2017)</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">0 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p> Gửi qu&yacute; kh&aacute;ch h&agrave;ng, Trong khoảng thời gian 1 tuần trở lại đ&acirc;y (th&aacute;ng 12/2017), nhiều qu&yacute; kh&aacute;ch thỉnh thoảng gặp phải hiện tượng kh&ocirc;ng kết nối được th&ocirc;ng qua UltraViewer v&agrave;o một khoảng thời điểm n&agrave;o đ&oacute;, kết nối kh&ocirc...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/UltraViewer-addclient-error.png" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>21</strong><i>Tháng 11</i></a>
+				<h1><a href="60092-cach-sua-loi-addclient-tren-ultraviewer.html">Cách sửa lỗi AddClient: Object variable or With block variable not set trên UltraViewer</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">2 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p> Khi bạn kết nối tới m&aacute;y kh&aacute;c hoặc c&oacute; một m&aacute;y kh&aacute;c kết nối tới m&aacute;y t&iacute;nh bạn m&agrave; m&aacute;y t&iacute;nh của bạn hiện ra lỗi như sau: AddClient: Object variable or With block variable not set LineNumber: 4 Hoặc lỗi cũng c&oacute; thể hiện ra như s...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/uninstall-net-framework.png" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>28</strong><i>Tháng 10</i></a>
+				<h1><a href="60090-sua-loi-net-framework-tren-windows-10-voi-cong-cu-net-framework-repair-tool.html">Sửa lỗi .NET Framework trên Windows 10 với công cụ .NET Framework Repair Tool</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">4 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p> .NET Framework l&agrave; một bộ thư viện hỗ trợ lập tr&igrave;nh được Microsoft ph&aacute;t triển, hiện nay .NET Framework đ&atilde; rất phổ biến v&agrave; được t&iacute;ch hợp sẵn trong hệ điều h&agrave;nh WIndows 7,8,10. C&oacute; rất nhiều phần mềm tr&ecirc;n m&aacute;y t&iacute;nh cần sử dụng đ...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+       		<div class="blog_post">	
+				<div class="blog_postcontent">
+				
+                <div class="image_frame small"><a href="#"><img src="../images/upload/Change-Fn-or-Function-key-behaviour.png" alt="" /></a></div>
+                <div class="post_info_content_small">
+				
+				 <a href="#" class="date"><strong>7</strong><i>Tháng 10</i></a>
+				<h1><a href="60088-cach-xu-ly-khong-nhan-duoc-phim-f1-f12-va-phim-len-xuong-trai-phai.html">Cách xử lý: không nhấn được phím F1-F12 và phím Lên/xuống/trái/phải</a></h1>
+                    <ul class="post_meta_links_small">
+                        <li class="post_by"><a href="#">DucFabulous</a></li>
+                        <li class="post_categoty"><a href="#"></a></li>
+                        <li class="post_comments"><a href="#">21 bình luận</a></li>
+                    </ul>
+                    
+                 <div class="clearfix"></div>
+				
+                <p> Ch&agrave;o c&aacute;c bạn, Một số bạn sử dụng m&aacute;y t&iacute;nh Laptop v&agrave; kh&ocirc;ng nhấn được ph&iacute;m F1-F12 hoặc/v&agrave; ph&iacute;m L&ecirc;n/xuống/tr&aacute;i/phải. Hiện tượng n&agrave;y thường xảy ra khi bạn d&ugrave;ng c&aacute;c d&ograve;ng m&aacute;y t&iacute;nh Laptop c...</p>
+                
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line3"></div>
+            
+
+<div class="blog_post">	
+	<ins class="adsbygoogle"
+		 style="display:block"
+		 data-ad-format="fluid"
+		 data-ad-layout-key="-ex+8+o4-69-1ap"
+		 data-ad-client="ca-pub-9282100529336347"
+		 data-ad-slot="7532701277"></ins>
+	<script>
+		 (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+</div><!-- /# end post -->
+
+<div class="clearfix divider_line3"></div>
+            
+            
+            <div class="pagination">
+            <b>Trang 13 trên 26</b>
+				
+				<a href="blog888d.html?pagenum=12" class="navlinks">&lt; Trang trước</a>
+				
+				<a href="blogca7c.html?pagenum=11" class="navlinks">11</a>
+				
+				<a href="blog888d.html?pagenum=12" class="navlinks">12</a>
+				
+				<a href="blog2c13.html?pagenum=13" class="navlinks current">13</a>
+				
+				<a href="blog69bb.html?pagenum=14" class="navlinks">14</a>
+				
+				<a href="blogfa8e.html?pagenum=15" class="navlinks">15</a>
+				
+                <a href="blog69bb.html?pagenum=14" class="navlinks">Tiếp theo ></a>
+				
+			</div><!-- end pagination -->
+        
+        </div><!-- end content left area -->
+
+
+<!-- right sidebar starts -->
+<div class="right_sidebar">
+	
+    <div class="site-search-area">
+        <form method="get" id="site-searchform" action="https://www.ultraviewer.net/vi/blog.html">
+        <div>
+        <input class="input-text" name="s" id="s" value="Tìm kiếm..." onFocus="if (this.value == 'Tìm kiếm...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Tìm kiếm...';}" type="text" />
+        <input id="searchsubmit" value="Search" type="submit" />
+        </div>
+        </form>
+	</div><!-- end site search -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+	<div class="sidebar_widget">
+    	<div class="sidebar_title"><h3>Danh mục</h3></div>
+		
+		<ul class="arrows_list1">			
+			<li><a  class="active" href="blog.html">Tất cả</a></li>
+			<li><a  href="blog2b0a.html?category=ultraviewer-news">Thông báo</a></li>
+			<li><a  href="blog444e.html?category=ultraviewer-help">Hướng dẫn</a></li>
+            <li><a  href="blog247f.html?category=ultraviewer-tips">Thủ thuật máy tính</a></li>		
+		</ul>
+	</div><!-- end section -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+    <div class="sidebar_widget">
+    
+    	<div class="sidebar_title"><h3>Nhiều người xem</h3></div>
+        
+			
+
+<ul class="recent_posts_list">
+                
+                <li>
+                <span><a href="#"><img src="../images/upload/lock%20screen%20windows%2010.jpg" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="48-huong-dan-cai-dat-man-hinh-khoa-lock-screen-tren-windows-10.html">Hướng dẫn cài đặt màn hình khóa Lock Screen trên windows 10</a>
+                <i>25 tháng 8, 2015</i> 
+                </li>
+                
+                <li>
+                <span><a href="#"><img src="../images/upload/2_ultraviewer.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="64-lam-sao-de-dieu-khien-tu-xa-voi-ultraviewer.html">Cách tải và sử dụng phần mềm điều khiển máy tính từ xa</a>
+                <i>7 tháng 9, 2015</i> 
+                </li>
+                
+                <li class='last'>
+                <span><a href="#"><img src="../images/home/phan-mem-dieu-khien-may-tinh-tu-xa.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="8-gioi-thieu-ve-phan-mem-dieu-khien-may-tinh-tu-xa-UltraViewer.html">Giới thiệu về phần mềm điều khiển máy tính từ xa UltraViewer</a>
+                <i>8 tháng 6, 2015</i> 
+                </li>
+                
+            </ul>
+                
+	</div><!-- end section -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+   	<div class="sidebar_widget">
+    	<h3>Liên kết</h3>
+		<!-- Ad side-->
+		<ins class="adsbygoogle"
+			 style="display:block"
+			 data-ad-client="ca-pub-9282100529336347"
+			 data-ad-slot="2310835193"
+			 data-ad-format="auto"
+			 data-full-width-responsive="true"></ins>
+		<script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+		
+	</div><!-- end section -->
+    
+
+	<div class="clearfix mar_top3"></div>
+    
+	<div class="sidebar_widget">
+    	<h3>Lưu trữ</h3>
+		<ul class="arrows_list1">		
+            <li><a href="#">June 2013</a></li>
+            <li><a href="#">May 2013</a></li>
+            <li><a href="#">April 2013</a></li>
+            <li><a href="#">March 2013</a></li>
+            <li><a href="#">February 2013</a></li>
+		</ul>
+	</div><!-- end section -->
+     
+    
+</div><!-- end right sidebar -->
+
+
+</div>
+
+
+
+<div class="clearfix"></div>
+
+<div class="container_full">
+
+	<div class="twitter_feed">
+    
+        <div class="container">
+        
+            <img src="../images/twitter-bird.png" alt="" class="image_left1" width="58" height="58">
+            
+            <div class="tweets"><strong>Phần mềm điều khiển máy tính từ xa UltraViewer</strong> đã đạt cột mốc mới về lượng người sử dụng trên toàn cầu. Chúng tôi đang nỗ lực cải tiến sản phẩm không ngừng để đáp ứng nhu cầu của người sử dụng, xin đừng ngần ngại gửi ý kiến góp ý tới chúng tôi.<br />
+                
+			</div>
+        
+        </div>
+    
+	</div>
+
+</div>
+
+
+
+<!-- Footer
+======================================= -->
+
+<div id="footer">
+	
+    <div class="container">
+    	
+        <div class="column">
+        
+        	<h2>Về UltraViewer</h2>
+            <p>UltraViewer là phần mềm điều khiển máy tính từ xa miễn phí thông dụng đang không ngừng phát triển. Chúng tôi gồm đội ngũ những kĩ sư chăm chỉ, nhiệt huyết, với khao khát sáng tạo và làm chủ công nghệ, sẽ đem đến những điều đặc biệt giá trị nhất dành cho bạn.</p>
+        
+        </div><!-- end about -->
+        
+		<!--
+        <div class="column">
+        
+        	<h2>Blog gần đây</h2>
+                    
+            <ul class="recent_blogs">
+            
+                <li>
+                    <img src="/images/post-simg7.jpg" alt="" />
+                    <a href="#">Làm thế nào để thu hút khách hàng về với sản phẩm</a>
+                    <i>June 27, 2013</i>
+                </li>
+                <li>
+                    <img src="/images/post-simg8.jpg" alt="" />
+                    <a href="#">Majority have super ateration</a>
+                    <i>June 26, 2013</i>
+                </li>
+                <li class="last">
+                    <img src="/images/post-simg9.jpg" alt="" />
+                    <a href="#">Many desktop push packages</a>
+                    <i>June 25, 2013</i>
+                </li>
+            </ul>
+        
+        </div>--><!-- end recent blogs -->
+        <div class="column">
+        
+        	<h2>Sản phẩm</h2>
+            
+            <ul class="list">
+			<li><a href="download.html">Tải phần mềm</a></li>
+            <li><a href="pricing.html">Bảng giá</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+			
+            <li><a href="tos.html">Điều khoản sử dụng &amp; thanh toán</a></li>
+			<li><a href="privacy.html">Chính sách bảo mật</a></li>
+            </ul>
+        
+        </div><!-- end support links -->
+		
+        <div class="column">
+        
+        	<h2>Hướng dẫn</h2>
+            
+            <ul class="list">
+			<li><a href="faq84f5.html?filter=installation">Cách cài đặt</a></li>
+            <li><a href="faqeebc.html?filter=using">Cách sử dụng</a></li>
+			<li><a href="faqa67f.html?filter=licensing">Cách mua</a></li>
+			<li><a href="faq53fb.html?filter=security">Bảo mật</a></li>
+			
+			<li><a href="blog.html">Blog</a></li>
+            </ul>
+        
+        </div><!-- end support links -->
+        
+        <div class="column">
+		
+			<h2>Liên hệ với chúng tôi</h2>
+            
+            <ul class="address-liste">
+			
+                <li class="icon2">+84 24.7300.9199</li>
+                <!--<li class="icon3">0123-4567-8900</li>-->
+                <li class="icon4"><a href="mailto:support@ultraviewer.net">support@ultraviewer.net</a></li>
+                <li class="icon4"><a href="mailto:sales@ultraviewer.net">sales@ultraviewer.net</a></li>
+				<li class="icon4"><a href="mailto:contact@ultraviewer.net">contact@ultraviewer.net</a></li>
+				<li class="icon4"><a target="_blank" href="https://www.ultraviewer.net/report-scam.aspx">Report scam</a></li>
+            </ul>
+        
+        </div><!-- end address -->
+        
+        <div class="column last">
+        
+        	<h2>Follow us</h2>
+            
+            <ul class="social_list"> 
+            	<li><a target="_blank" href="http://facebook.com/ultraviewer"><img src="../images/social-icon1.png" alt="Facebook" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon2.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon3.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon4.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon5.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon6.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon7.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon8.png" alt="" width="20" height="20"/></a></li>
+            </ul>
+            
+            <div class="clearfix"></div>
+        	
+			
+			
+        </div><!-- end socails -->
+    
+    </div>
+    
+    <div class="clearfix"></div>
+    <div class="mar_top2"></div>
+    
+    <div class="container">
+    
+    	<div class="h_column_area">
+        
+        	<div class="newsletter">
+            
+            	<img src="../images/newsletter-icon.png" alt="" class="image_left1" width="28" height="40"/><h4>Nhận<br />Email</h4>
+                
+                <form method="get" action="https://www.ultraviewer.net/">   
+					<input class="enter_email_input" name="samplees" id="samplees" value="Nhập email của bạn" onFocus="if(this.value == 'Nhập email của bạn') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Nhập email của bạn';}" type="text">
+					<input name="" value="Đăng ký" class="input_submit" type="submit">
+					</form>
+                
+            </div><!-- end newsletter sign up -->
+        	
+            
+            <div class="clients">
+            
+            	<h4>Đối tác của<br />UltraViewer</h4>
+                
+                <ul class="clients_list">
+				
+					
+                    <li><img src="../images/vnpt-90.png" alt="" width="50" height="60"/></li>
+                    <li><img src="../images/misa.png" alt="" /></li>
+					<li><img src="../images/bo-tai-chinh-90.png" alt="" width="65" height="70"/></li>
+					<li><img src="../images/coc-coc.png" alt="" /></li>
+					<li><img src="../images/ivat-105.png" alt="" /></li>
+					
+				
+                </ul>
+            
+            </div><!-- end client logos -->
+            
+            
+        </div>
+    
+    </div>
+    
+
+</div>
+
+
+<div class="copyright_info">
+    
+    	<div class="container">
+        
+    	<div class="one_half">
+        	<span><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
+                    
+        </div>
+        
+        <div class="one_half last"><b>@ Copyright UltraViewer 2024 | Đã đăng ký bản quyền<sup>TM</sup></b></div>
+		
+        
+        
+		</div>
+        
+</div><!-- end copyright info --> 
+
+
+    
+
+
+
+<a href="#" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+   
+   
+
+</div>
+
+    
+
+
+<script defer type="text/javascript" src="../js/page/global.js"></script>
+<script defer type="text/javascript" src="../js/accordion/custom_gzip.js"></script>
+
+
+
+
+
+</body>
+
+<!-- Mirrored from www.ultraviewer.net/vi/blog.html?pagenum=13 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jan 2024 09:06:03 GMT -->
+</html>
