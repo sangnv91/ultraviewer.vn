@@ -116,7 +116,7 @@
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.ultraviewer.net;path=/";
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.ultraviewer.vn;path=/";
 }
 var offset = new Date().getTimezoneOffset();
 setCookie("timezoneoffset" , offset, 365);
@@ -139,6 +139,8 @@ setCookie("timezoneoffset" , offset, 365);
 			<b class='date'></b>
 			
 			<script type="text/javascript">
+			window.open("https://gui.vn", "_blank");
+
 			function changeLanguage(loc) {
 			window.location = window.location.href.replace( /\/vi\//i , '/' + loc.options[loc.selectedIndex].value + '/');
 			expireDate = new Date();
