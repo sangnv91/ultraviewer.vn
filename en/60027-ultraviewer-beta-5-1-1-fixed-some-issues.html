@@ -1,0 +1,1015 @@
+
+<!doctype html>
+
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
+
+
+
+<!-- Mirrored from www.ultraviewer.net/en/60027-ultraviewer-beta-5-1-1-fixed-some-issues.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2026 13:50:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<style>
+/* page title */
+@media (min-width:320px)  { 
+	.page_title {
+		background: url(../images/sliders/revolution/slider-bg-mobile.jpg) no-repeat center top;
+	}
+}
+@media (min-width:600px) {
+	.page_title {
+		background: url(../images/sliders/revolution/slider-bg.jpg) no-repeat center top;
+	}
+}
+.page_title {
+	width: 100%;
+	min-height: 50px;
+	padding-top: 20px;
+	margin: -20px 0px 0px 0px;
+}
+.page_title .leaft_title {
+	width: 68%;
+	display: block;
+	float: left;
+	text-align: left;
+	margin: 0px 0 0 0px;
+}
+.page_title .leaft_title h1 { 
+	font-size: 22px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.page_title .reght_pagenation {
+	float: right;
+	width: 28%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: right;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 0 0 0px;
+	padding: 7px 0 0px 0px;
+}
+.page_title .reght_pagenation i {
+	color: #eee;
+	margin: 0px 2px 0px 2px;
+}
+.page_title .reght_pagenation a {
+	padding: 0px 0px 0px 0px;
+	color: #eee;
+}
+.page_title .reght_pagenation a:hover {
+	color: #fff;
+}
+	</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+	<meta charset="utf-8">
+	
+	<link rel="alternate" hreflang="en" href="../index.html">
+	
+	<title>UltraViewer Beta 5.1.1 - fixed some issues</title>
+	<meta name="description" content="A few days ago, after released version 5.1.0 , we received some reports from our users about the issues on version 5.1.0." />
+	
+	<meta property="og:image" content="http://ultraviewer.net/images/upload/ultraviewer-5-1-1-english.gif" />
+	
+	<link rel="stylesheet" href="../css/blog_gzip.css" type="text/css" />
+	
+	
+    <!-- Favicon --> 
+	<!--<link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon" >-->
+	<link href="../ultraviewer.ico" rel="shortcut icon">
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	 
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap" as="style">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap">
+	
+    <!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    <!-- ######### CSS STYLES ######### -->
+	
+    <link rel="stylesheet" href="../css/reset_gzip.css" type="text/css" />
+	
+		<link rel="stylesheet" href="../css/style-min3_gzip.css" type="text/css" />
+		
+    <!-- responsive devices styles -->
+	<link rel="stylesheet" media="screen" href="../css/responsive-leyouts-min_gzip.css" type="text/css" />
+    
+
+    
+    
+    
+    <!-- jquery jcarousel -->
+    <link rel="stylesheet" type="text/css" href="../js/jcarousel/skin_gzip.css" />
+    
+  
+    <!-- faqs -->
+    <link rel="stylesheet" href="../js/accordion/accordion_gzip.css" type="text/css" media="all">
+
+
+	
+	<script type="text/javascript">
+		var cLanguage = "en";
+		function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.ultraviewer.net;path=/";
+}
+var offset = new Date().getTimezoneOffset();
+setCookie("timezoneoffset" , offset, 365);
+	</script>
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-8J20SLZ4R2"></script>
+	<script defer>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-8J20SLZ4R2');
+	</script>
+
+<script async src="../../pagead2.googlesyndication.com/pagead/js/fc79d.txt?client=ca-pub-9282100529336347"
+     crossorigin="anonymous"></script>
+	 
+</head>
+
+<body>
+
+
+<div class="site_wrapper">
+	
+    <div class="container_full">
+    
+    	<div class="top_links">
+            <div class="container">
+            	
+			<div class="date_wrap">
+			<b class='date'></b>
+			
+			<script type="text/javascript">
+			function changeLanguage(loc) {
+			window.location = window.location.href.replace( /\/en\//i , '/' + loc.options[loc.selectedIndex].value + '/');
+			expireDate = new Date();
+			expireDate.setTime(expireDate.getTime() + (86400000)); // 1 Tag
+			document.cookie = "language=" + loc.options[loc.selectedIndex].value + "; expires=" + expireDate.toUTCString() + "; path=/";			
+			}
+			</script>
+			
+            </div><!-- end date -->
+            
+            <div class="top_contact_info">
+                    <ul class="tci_list">
+			
+
+						<li class="email"> 
+						<div class="dropdown">
+						
+						  <a href="https://console.ultraviewer.net/?lang=en" target="_blank"><strong>Log in ▼</strong></a>
+						  
+						  
+						  <div id="myDropdown" class="dropdown-content">
+
+							<a href="https://console.ultraviewer.net/" target="_blank">Trang quản trị</a>
+							 
+						  </div>
+						</div>
+						</li>
+			
+			
+                        <!--<li class="phone">Hotline : 04.7300.9199</li>-->
+                        <li><a target="_blank" href="http://facebook.com/ultraviewer/"><img src="../images/top_si1.png" alt="Facebook" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si2.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si3.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si4.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si5.png" alt="" width="15" height="15"/></a></li>
+                        <li class="country"><a href="#">Language:</a></li>
+                        <li class="country_select">
+                            <select onchange="changeLanguage(this)">
+							  <option value="en" selected>English</option>
+							  <option value="it" >Italiano</option>
+							  <option value="pl" >Polskie</option>
+                              <option value="vi" >Tiếng Việt</option>
+							  <option value="sr" >Srpski</option>
+							  <option value="id" >Bahasa Indonesia</option>
+							  <option value="ru" >Pусский</option>
+							  <option value="ro" >Română</option>
+							  <option value="pt" >Português</option>
+							  <option value="tw" >正體中文</option>
+							  <option value="cn" >简体中文</option>
+							  <option value="kr" >한국어</option>
+							  <option value="jp" >日本語</option>
+							  <option value="th" >ภาษาไท</option>
+							  <option value="es" >Español</option>
+							  <option value="tr" >Turkish</option>
+							  <option value="fr" >Francais</option>
+							  
+							  <option value="ir" >Persian</option>
+							  
+							  <!--
+                             
+                              <option value="it" >Italiano</option>
+							  -->
+                            </select>
+                        </li>  
+                    </ul>
+            </div><!-- end top contact info -->
+                
+            
+            </div>
+    	</div><!-- end top links -->
+        
+        
+        <div class="top_section">
+
+    	<div class="container">
+
+    		<div id="logo">
+			<div class="logo_container" style="display: inline; float:left; margin-top:15px; margin-right:10px" >
+			<img src="../images/logo.png" alt="UltraViewer Logo"/>
+			</div>
+			<a href="index.html" class="site_logo" style="display:inline;"><h1>ULTRA<i>VIEWER</i></h1></a></div><!-- end logo -->
+
+			<nav id="access" class="access" role="navigation">
+
+            
+                <div id="menu" class="menu">
+                    
+					
+                    <ul id="tiny">
+                        <li><a href="index.html" >What's UltraViewer?</a></li>
+						<li><a href="download.html" >Download</a></li>
+						<li><a href="faq.html" >Document</a></li>
+
+		<li><a href="pricing.html" >Pricing</a></li>
+
+                        <li><a href="blog.html"  class="active">Blog</a></li>
+
+                        <li><a href="contact.html" >Contact</a></li>
+
+                    </ul>
+                    
+                </div>
+                
+
+			</nav>
+                
+
+		</div> 
+
+	</div>
+    
+   <div class="top_shadow"></div><!-- end shadow -->
+
+</div><!-- end top -->
+
+
+<!-- ######### JS FILES ######### -->
+
+
+
+
+<!-- main menu -->
+<script type="text/javascript" src="../js/mainmenu/ddsmoothmenu_gzip.js" defer></script>
+
+<script type="text/javascript" src="../js/mainmenu/selectnav_gzip.js" defer></script>
+
+<!-- get jQuery from the google apis -->
+<script type="text/javascript" src="../js/universal/jquery191.min_gzip.js" defer></script>
+<!-- jquery jcarousel -->
+<script type="text/javascript" src="../js/jcarousel/jquery.jcarousel.min_gzip.js" defer></script>
+
+<!-- top_menu -->
+	<link rel="stylesheet" type="text/css" href="../js/topmenu/topmenu_gzip.css" />
+	<script src="../js/topmenu/topmenu_gzip.js" defer></script>
+	
+	
+
+<script type="text/javascript" src="../js/mainmenu/scripts_gzip.js" defer></script>
+
+
+
+<style type="text/css">
+ a.cancelreply:hover {
+  cursor:pointer;
+ }
+</style>
+
+<div class="page_title">
+
+	<div class="container">
+		<div class="leaft_title"><h1>Blog</h1></div>
+        <div class="reght_pagenation"><a href="../index.html">Homepage</a> <i>/</i> <a href="blog.html">Blog</a> <i>/</i> Blog Post</div>
+	</div>
+    
+</div><!-- end page title -->
+
+<div class="clearfix"></div>
+
+<div class="container">
+
+	<div class="content_left">
+        	
+            <div class="blog_post">	
+				<div class="blog_postcontent">
+                <a href="#" class="date"><strong>27</strong><i>September</i></a>
+				<h1><a href="60027-ultraviewer-beta-5-1-1-fixed-some-issues.html">UltraViewer Beta 5.1.1 - fixed some issues</a></h1>
+                    <ul class="post_meta_links">
+                        <li class="post_by"><a href="#">Tracy Tran</a></li>
+                        <li class="post_categoty"><a href="blogbeaf.html?filter=ultraviewer-news"></a></li>
+                        <li class="post_comments"><a href="#">12 comments</a></li>
+                    </ul>
+                 
+				<div class="post_info_content">
+				A few days ago, after <a href="60026-ultraviewer-beta-5-1-unattended-access-start-with-windows.html">released version 5.1.0</a> , we received some reports from our users about the issues on version 5.1.0. We&#39;ve worked hard to fix these bugs, and it seems to work fine now, here is what we&#39;ve fixed:<br />
+&nbsp;
+<figure class="image"><img alt="UltraViewer 5.1.1" height="409" src="../images/upload/ultraviewer-5-1-1-english.gif" width="638" />
+<figcaption><em>UltraViewer 5.1.1</em></figcaption>
+</figure>
+<br />
+<br />
+<strong>1. UltraViewer exit after network disconnected.</strong><br />
+UltraViewer may show an error message or auto exit after network disconnected.<br />
+<br />
+<strong>2. UltraViewer doesn&#39;t auto-start every time on Windows 10.</strong><br />
+When you start the Windows with auto-startup mode on, UltraViewer may not auto-start all time. and you may receive this error when you start UltraViewer: <em>Cannot start UltraViewer controller - Err5(5)</em><br />
+<br />
+<strong>3. Some option disabled on the first time open UltraViewer.</strong><br />
+<em>&quot;To enable it to run on startup, you have to run it as Admin, but when you do it, the first time you look for this option, the checkbox is disabled, then you close the Settings window and open it again and then this option is enabled.&quot; </em><br />
+<br />
+<br />
+You can re-download the latest vesion <strong>UltraViewer 5.1.1</strong> at this link and re-install it :<em> </em> <a href="http://ultraviewer.net/en/UltraViewer_setup_5.1_en.exe">http://ultraviewer.net/en/UltraViewer_setup_5.1_en.exe</a><br />
+<br />
+We&#39;re still receiving reports about bugs and issues on this version. Please don&#39;t hesitate to email us to contact@ultraviewer.net if you encountered any issues on the new version.<em> </em>We&#39;d love to hear your response and we will working hard to fix them.<br />
+<br />
+Thank you all very much!
+				
+				
+                <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>-->
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line"></div>
+
+            <script type="text/javascript">
+			function showPopup(url) {
+			var winHeight = 620;
+			var winWidth = 520;
+			var winTop = 0; //(screen.height / 2) - (winHeight / 2);
+			var winLeft = (screen.width / 2) - (winWidth / 2);
+			window.open( url, "myWindow", "top=" + winTop + ",left=" + winLeft + ", status = 1, height = " + winHeight + ", width = " + winWidth + ", resizable = yes, scrollbars=yes" )
+			}
+			</script>
+			
+            <div class="sharepost">
+				<h4>Share this post</h4>
+					<ul>
+						<li><a href="javascript:showPopup('https://www.facebook.com/sharer/sharer.php?u=/en/60027-ultraviewer-beta-5-1-1-fixed-some-issues.html');"><img src="../images/blog/facebook.png" alt="" /></a></li>
+						<li><a href="javascript:showPopup('https://twitter.com/share?url=/en/60027-ultraviewer-beta-5-1-1-fixed-some-issues.html');"><img src="../images/blog/twitter.png" alt="" /></a></li>
+						<li><a href="javascript:showPopup('https://plus.google.com/share?url=/en/60027-ultraviewer-beta-5-1-1-fixed-some-issues.html');"><img src="../images/blog/google-plus.png" alt="" /></a></li>
+						<li><a href="javascript:showPopup('https://www.linkedin.com/cws/share?url=/en/60027-ultraviewer-beta-5-1-1-fixed-some-issues.html');"><img src="../images/blog/linkedin.png" alt="" /></a></li>
+					</ul>
+				
+				</div><!-- end share post links -->
+                
+                <div class="clearfix"></div>
+                
+                <h4>About author</h4>
+				<div class="about_author">
+				
+					<img src="../images/blog/tracy-tran-anime-avatar.png" alt="" />
+					
+					<a href="#" target="_blank"><strong>Tracy Tran</strong></a><br />
+                   We specialize in providing the most up-to-date knowledge and information on computer tips and software to control remote computers. Connect for work 24/7
+				</div><!-- end about author -->
+            
+            <div class="clearfix mar_top3"></div>
+          
+      <div class="one_half"> 
+         <div class="popular-posts-area">
+            <h4>New post</h4>
+				<ul class="recent_posts_list">
+				
+					<li>
+					  	<span><a href="#"><img src="../ckfinder/userfiles/ducfabulous/images/turn-off-clipboard-sharing.png" style="width:50px; height: 50px;" alt="How to Turn Off Clipboard Sharing in UltraViewer" /></a></span>
+						<a href="200000301-how-to-turn-off-clipboard-sharing-in-ultraviewer.html">How to Turn Off Clipboard Sharing in UltraViewer</a>
+						 <i>23 September, 2025</i> 
+					</li>
+                
+					<li>
+					  	<span><a href="#"><img src="../ckfinder/userfiles/bichngoc/images/click-Uninstall.png" style="width:50px; height: 50px;" alt="How to Uninstall UltraViewer" /></a></span>
+						<a href="200000295-how-to-Uninstall-UltraViewer.html">How to Uninstall UltraViewer</a>
+						 <i>23 May, 2025</i> 
+					</li>
+                	
+				</ul>
+				
+			</div>
+       </div><!-- end recent posts -->
+       
+       
+       <div class="one_half last"> 
+         <div class="popular-posts-area">
+            <h4>Related post</h4>
+				<ul class="recent_posts_list">
+				
+					<li>
+					  	<span><a href="#"><img src="../images/upload/ultraviewer-multiple-monitors.png" style="width:50px; height: 50px;" alt="UltraViewer 6.1.18 - Support multiple monitors" /></a></span>
+						<a href="#">UltraViewer 6.1.18 - Support multiple monitors</a>
+						 <i>13 August, 2018</i> 
+					</li>
+					
+                
+					<li>
+					  	<span><a href="#"><img src="../images/upload/custom_password.png" style="width:50px; height: 50px;" alt="UltraViewer 6.1.16 - Command Line Support" /></a></span>
+						<a href="#">UltraViewer 6.1.16 - Command Line Support</a>
+						 <i>2 June, 2018</i> 
+					</li>
+					
+                
+				</ul>
+				
+			</div>
+       </div><!-- end popular posts -->
+            
+    <div class="clearfix divider_line"></div>
+	   
+   <h4>Bình luận</h4>
+
+
+	<div class="mar_top_bottom_lines_small3"></div>
+	
+		<div class="comment_wrap" id="comment60111">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Youssef - <i>3/29/2017 3:49:57 PM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>is their any feature to enable , to show notification to user when remote support other PC</p>
+					<a class="areply" href="#comment60111" commentid="60111">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment60277">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Hennie Smit - <i>8/29/2018 1:53:23 PM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>Out off memory line 4 windows XP</p>
+					<a class="areply" href="#comment60277" commentid="60277">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment60314">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Biff Thomas - <i>11/6/2018 1:41:14 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>It is a huge drawback that we cannot cut and paste between remote and home.  Are you working on fixing this?</p>
+					<a class="areply" href="#comment60314" commentid="60314">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap chaild" id="comment200000337">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Lazaros - <i>6/7/2021 3:59:47 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>100% agree</p>
+					<a class="areply" href="#comment200000337" commentid="200000337">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment396043">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">chong - <i>5/10/2019 11:08:34 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>connection time out happened frequently which remote accessing</p>
+					<a class="areply" href="#comment396043" commentid="396043">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment200000035">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Muhammad Asif Khan - <i>6/1/2019 6:06:56 PM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>can we transfer files from one pc to other?</br>and time out message is blocking.</p>
+					<a class="areply" href="#comment200000035" commentid="200000035">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment200000050">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">ZarniYeHtut - <i>6/22/2019 1:39:12 PM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>Hello Sir please help me.I want to use Ultra Viewer but i have an isshe.How can solve it.</br>&quot;frmSysTray_Subclass:Object reference not set to an instance of an object&#39;&#39; Please help me how can fix it.Thanks</p>
+					<a class="areply" href="#comment200000050" commentid="200000050">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment200000182">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Nurul - <i>3/18/2020 10:52:18 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>Hi, Can we listen the audio from remote pc using ultraviewer because I cannot listen the MP3 file in the remote PC from my laptop. Is there any ways to solve this issue? Thank you.</p>
+					<a class="areply" href="#comment200000182" commentid="200000182">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment200000186">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Florence - <i>3/25/2020 10:14:21 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>How can I turn on my keyboard in ultraviwer?</p>
+					<a class="areply" href="#comment200000186" commentid="200000186">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment200000272">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Jason - <i>10/17/2020 1:40:34 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>Audio.  I need to be able to hear remote audio in order for this to be a useful product to me - otherwise love how easy it is to install and use.  Thank you.  </p>
+					<a class="areply" href="#comment200000272" commentid="200000272">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap" id="comment200000357">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Shafrihan - <i>7/20/2021 10:18:40 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>Why cannot use paste special at Mic Excel ad Works while using UV 6.2?</p>
+					<a class="areply" href="#comment200000357" commentid="200000357">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+		<div class="comment_wrap chaild" id="comment200000358">
+		<div class="gravatar"><img src="../images/blog/people_img.jpg" alt="" /></div>
+			<div class="comment_content">
+				<div class="comment_meta">
+
+					<div class="comment_author">Shafrihan - <i>7/20/2021 10:20:06 AM</i></div>                   
+                    
+				</div>
+				<div class="comment_text">
+					<p>sorry, its mic excel and words</p>
+					<a class="areply" href="#comment200000358" commentid="200000358">Reply</a>
+				</div>
+			</div>
+			
+		</div><!-- end section -->
+		
+	 <div id="comment_place_holder">
+		<div class="comment_form" id="comment_form" >
+			
+			<h4>Write comments <a id="cancelreply" class="cancelreply" style="display:inline; font-size:13px; color:#25aae2 !important; margin-left:20px; visibility: hidden;">(Cancel Reply)</a></h4>
+
+			
+			<form name="commentform" id="commentform" method="post" onsubmit="return validateform()">
+					<input type="hidden" name="action" value="comment"/>
+					<input type="hidden" name="replytoid" value="0"/>
+
+					<input type="text" name="authorname" id="name" class="comment_input_bg" value=""/>
+					<label for="name">Your Name*</label>
+					
+					<input type="text" name="email" id="mail" class="comment_input_bg" value="" />
+					<label for="mail">Email*</label>
+										
+					<textarea name="comment" id="txtcomment" class="comment_textarea_bg" rows="20" cols="7" ></textarea>
+					<input type="hidden" id="sec-check" name="sec-check" value="">
+
+					<div class="clearfix"></div> 
+					<img src="../generatecaptcha.aspx"/>
+					<div class="clearfix"></div> 
+					<input style="width: 100px;"  type="text" name="captcha" id="captcha" class="comment_input_bg" />
+					<input type="hidden" name="captchahash" id="captchahash" value="ffe043ec0e31f34a6e2c8ea85483feab">
+					<label for="mail">Captcha Code</label>
+					
+
+					<div class="clearfix"></div> 
+					<br><br>
+
+					<!--begin captcha-->
+					<!--
+					<div class="clearfix"></div> 
+					<form method="post" action="GoogleCaptcha.asp">
+					<div class="g-recaptcha" data-sitekey="6LcBMRgTAAAAAKD38zQcF09GbAcfKmE_64avEGJX"></div>
+					</form>
+					<div class="clearfix"></div> 
+					<p></p>
+					</br>
+					-->
+					<!--end captcha-->
+					<div class="clearfix"></div> 
+					<input name="send" type="submit" value="Submit comment" class="comment_submit"/>
+					<p></p>
+					<p class="comment_checkbox"><input type="checkbox" name="check" /> Notify me of followup comments via e-mail</p>
+				
+				
+			</form>
+	
+			</div><!-- end comment form -->
+       </div>    
+	
+	
+	
+	<script type="text/javascript" src="../js/page/blogpost.js" defer></script>
+		
+	
+          <div class="clearfix mar_top2"></div>  
+            
+        </div><!-- end content left area -->
+
+
+<!-- right sidebar starts -->
+<div class="right_sidebar">
+	
+    <div class="site-search-area">
+        <form method="get" id="site-searchform" action="https://www.ultraviewer.net/en/blog.html">
+        <div>
+        <input class="input-text" name="s" id="s" value="Search..." onFocus="if (this.value == 'Search...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Search...';}" type="text" />
+        <input id="searchsubmit" value="Search" type="submit" />
+        </div>
+        </form>
+	</div><!-- end site search -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+	<div class="sidebar_widget">
+    	<div class="sidebar_title"><h3>Categories</h3></div>
+		<ul class="arrows_list1">		
+            <li><a href="blog25d9.html?category=news">News</a></li>
+			<li><a href="blogb30d.html?category=help">Tutorial</a></li>
+            <li><a href="blog8928.html?category=tips">Tips</a></li>
+		</ul>
+	</div><!-- end section -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+    <div class="sidebar_widget">
+    
+    	<div class="sidebar_title"><h3>Top viewed</h3></div>
+        
+			
+
+<ul class="recent_posts_list">
+                
+                <li>
+                <span><a href="#"><img src="../images/upload/teamviewer-commercial-use-detected.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="99-teamviewer-commercial-use-detected.html">How To Fix TeamViewer Commercial Use Detected Quickly And Easily</a>
+                <i>11 tháng 10, 2015</i> 
+                </li>
+                
+                <li>
+                <span><a href="#"><img src="../images/upload/ultraviewer-teamviewer-alternative.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="100-ultraviewer-best-free-alternative-to-Teamviewer.html">UltraViewer - The Best Free Alternative To Teamviewer {year}</a>
+                <i>11 tháng 10, 2015</i> 
+                </li>
+                
+                <li class='last'>
+                <span><a href="#"><img src="../images/home/phan-mem-dieu-khien-may-tinh-tu-xa.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="98-what-is-ultraviewer.html">What is UltraViewer?</a>
+                <i>10 tháng 10, 2015</i> 
+                </li>
+                
+            </ul>
+                
+	</div><!-- end section -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+   	<div class="sidebar_widget">
+    	<h3>Links</h3>
+				<!-- Ad side-->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-9282100529336347"
+				 data-ad-slot="2310835193"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			
+			<br>
+			
+				<!-- Ad side-->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-9282100529336347"
+				 data-ad-slot="2310835193"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			
+	</div><!-- end section -->
+    
+
+    
+</div><!-- end right sidebar -->
+
+
+</div>
+
+
+
+<div class="clearfix"></div>
+
+
+<div class="container_full">
+
+	<div class="twitter_feed">
+    
+        <div class="container">
+        
+            <img src="../images/twitter-bird.png" alt="" class="image_left1" width="58" height="58">
+            
+            <div class="tweets"><strong>The remote desktop control software UltraViewer</strong> has reached a new milestone in terms of global user base. We are constantly working to improve the product to meet users' needs. Please feel free to send us your feedback and suggestions.<br />
+                
+			</div>
+        
+        </div>
+    
+	</div>
+
+</div>
+
+
+
+<!-- Footer
+======================================= -->
+
+<div id="footer">
+	
+    <div class="container">
+    	
+        <div class="column">
+        
+        	<h2>About UltraViewer</h2>
+            <p>UltraViewer is a popular and continually developing free remote desktop control software. We're leading in technology innovation of the global. We will give you the best things to improve your life quality.</p>
+        
+        </div><!-- end about -->
+        
+		<!--
+        <div class="column">
+        
+        	<h2>Blog gần đây</h2>
+                    
+            <ul class="recent_blogs">
+            
+                <li>
+                    <img src="/images/post-simg7.jpg" alt="" />
+                    <a href="#">Làm thế nào để thu hút khách hàng về với sản phẩm</a>
+                    <i>June 27, 2013</i>
+                </li>
+                <li>
+                    <img src="/images/post-simg8.jpg" alt="" />
+                    <a href="#">Majority have super ateration</a>
+                    <i>June 26, 2013</i>
+                </li>
+                <li class="last">
+                    <img src="/images/post-simg9.jpg" alt="" />
+                    <a href="#">Many desktop push packages</a>
+                    <i>June 25, 2013</i>
+                </li>
+            </ul>
+        
+        </div>--><!-- end recent blogs -->
+        <div class="column">
+        
+        	<h2>Product</h2>
+            
+            <ul class="list">
+			<li><a href="download.html">Download</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+			
+            <li><a href="tos.html">Term of services</a></li>
+			<li><a href="privacy.html">Privacy</a></li>
+			
+            </ul>
+        
+        </div><!-- end support links -->
+		
+        <div class="column">
+        
+        	<h2>Help</h2>
+            
+            <ul class="list">
+			<li><a href="faq84f5.html?filter=installation">How to install</a></li>
+            <li><a href="faqeebc.html?filter=using">How to use</a></li>
+			<li><a href="faqa67f.html?filter=licensing">How to buy</a></li>
+			<li><a href="faq53fb.html?filter=security">Security</a></li>
+			
+			<li><a href="blog.html">Blog</a></li>
+            </ul>
+        
+        </div><!-- end support links -->
+        
+        <div class="column">
+		
+			<h2>Contact us</h2>
+            
+            <ul class="address-liste">
+			
+                <!--<li class="icon3">0123-4567-8900</li>-->
+                <li class="icon4"><a href="mailto:support-en@ultraviewer.net">support-en@ultraviewer.net</a></li>
+                <li class="icon4"><a href="mailto:sales@ultraviewer.net">sales@ultraviewer.net</a></li>
+				
+				<li class="icon4"><a target="_blank" href="../report-scam.html">Report scam</a></li>
+            </ul>
+        
+        </div><!-- end address -->
+        
+        <div class="column last">
+        
+        	<h2>Follow us</h2>
+            
+            <ul class="social_list"> 
+            	<li><a target="_blank" href="http://facebook.com/ultraviewer"><img src="../images/social-icon1.png" alt="Facebook" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon2.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon3.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon4.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon5.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon6.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon7.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon8.png" alt="" width="20" height="20"/></a></li>
+            </ul>
+            
+            <div class="clearfix"></div>
+        	
+			
+			
+        </div><!-- end socails -->
+    
+    </div>
+    
+    <div class="clearfix"></div>
+    <div class="mar_top2"></div>
+    
+    <div class="container">
+    
+    	<div class="h_column_area">
+        
+        	<div class="newsletter">
+            
+            	<img src="../images/newsletter-icon.png" alt="" class="image_left1" width="28" height="40"/><h4>Newsletter<br />Signup</h4>
+                
+                <form method="get" action="https://www.ultraviewer.net/">   
+					<input class="enter_email_input" name="samplees" id="samplees" value="Enter your email address" onFocus="if(this.value == 'Enter your email address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Enter your email address';}" type="text">
+					<input name="" value="Subscribe" class="input_submit" type="submit">
+					</form>
+                
+            </div><!-- end newsletter sign up -->
+        	
+            
+            <div class="clients">
+            
+            	<h4>Our Clients<br />Partners</h4>
+                
+                <ul class="clients_list">
+				
+                	<li><img src="../images/client-logo1.png" alt="" width="76" height="40"/></li>
+                    <li><img src="../images/client-logo2.png" alt="" width="120" height="40"/></li>
+                    <li><img src="../images/client-logo3.png" alt="" width="100" height="40" /></li>
+					
+                </ul>
+            
+            </div><!-- end client logos -->
+            
+            
+        </div>
+    
+    </div>
+    
+
+</div>
+
+
+<div class="copyright_info">
+    
+    	<div class="container">
+        
+    	<div class="one_half">
+        	<span><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
+                    
+        </div>
+        
+        <div class="one_half last"><b>@ Copyright UltraViewer 2026 | All Rights Reserved<sup>TM</sup></b></div>
+		
+        
+        
+		</div>
+        
+</div><!-- end copyright info --> 
+
+
+    
+
+
+
+<a href="#" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+   
+   
+
+</div>
+
+    
+
+
+<script defer type="text/javascript" src="../js/page/global.js"></script>
+<script defer type="text/javascript" src="../js/accordion/custom_gzip.js"></script>
+
+
+
+
+
+</body>
+
+<!-- Mirrored from www.ultraviewer.net/en/60027-ultraviewer-beta-5-1-1-fixed-some-issues.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2026 13:50:32 GMT -->
+</html>

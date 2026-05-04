@@ -8,6 +8,7 @@
 
 
 
+
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <head>
 	<style>
@@ -69,13 +70,41 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
 	<meta charset="utf-8">
 	
+	<link rel="alternate" hreflang="en" href="../index.html">
+	
+	<link rel="alternate" hreflang="vi" href="../index.html">
+	
+	<link rel="alternate" hreflang="sr" href="../index.html">
+	
+	<link rel="alternate" hreflang="id" href="../index.html">
+	
+	<link rel="alternate" hreflang="zh-tw" href="../index.html">
+	
+	<link rel="alternate" hreflang="zh-cn" href="../index.html">
+	
+	<link rel="alternate" hreflang="it" href="../index.html">
+	
+	<link rel="alternate" hreflang="pl" href="../index.html">
+	
+	<link rel="alternate" hreflang="ru" href="../index.html">
+	
+	<link rel="alternate" hreflang="pt" href="../index.html">
+	
+	<link rel="alternate" hreflang="ro" href="../index.html">
+	
+	<link rel="alternate" hreflang="kr" href="../index.html">
+	
+	<link rel="alternate" hreflang="jp" href="../index.html">
+	
+	<link rel="alternate" hreflang="th" href="../index.html">
+	
 	<title>Bảng giá - Phần mềm UltraViewer</title>
 	<meta name="description" content="UltraViewer miễn phí dành cho cá nhân sử dụng ít. Nếu bạn cần điều khiển nhiều máy hơn chỉ phải trả thêm 500đ - 3000đ / máy / tháng..." />
 	
 	
     <!-- Favicon --> 
 	<!--<link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon" >-->
-	<link href="https://ultraviewer.vn/ultraviewer.ico" rel="shortcut icon">
+	<link href="../ultraviewer.ico" rel="shortcut icon">
     <!-- this styles only adds some repairs on idevices  -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
@@ -91,8 +120,8 @@
 	
     <link rel="stylesheet" href="../css/reset_gzip.css" type="text/css" />
 	
-	<link rel="stylesheet" href="../css/style-min2_gzip.css" type="text/css" />
-    
+		<link rel="stylesheet" href="../css/style-min3_gzip.css" type="text/css" />
+		
     <!-- responsive devices styles -->
 	<link rel="stylesheet" media="screen" href="../css/responsive-leyouts-min_gzip.css" type="text/css" />
     
@@ -115,12 +144,22 @@
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
     var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.ultraviewer.net;path=/";
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.ultraviewer.vn;path=/";
 }
 var offset = new Date().getTimezoneOffset();
 setCookie("timezoneoffset" , offset, 365);
 	</script>
 	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-8J20SLZ4R2"></script>
+	<script defer>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-8J20SLZ4R2');
+	</script>
 
 </head>
 
@@ -155,12 +194,12 @@ setCookie("timezoneoffset" , offset, 365);
 						<li class="email"> 
 						<div class="dropdown">
 						
-						  <a href="https://ultraviewer.vn/" target="_blank"><strong>Đăng nhập  ▼</strong></a>
+						  <a href="https://console.ultraviewer.vn/?lang=vi" target="_blank"><strong>Đăng nhập  ▼</strong></a>
 						  
 						  
 						  <div id="myDropdown" class="dropdown-content">
 
-							<a href="https://ultraviewer.vn/" target="_blank">Trang quản trị</a>
+							<a href="https://console.ultraviewer.vn/" target="_blank">Trang quản trị</a>
 							 
 						  </div>
 						</div>
@@ -192,11 +231,12 @@ setCookie("timezoneoffset" , offset, 365);
 							  <option value="th" >ภาษาไท</option>
 							  <option value="es" >Español</option>
 							  <option value="tr" >Turkish</option>
+							  <option value="fr" >Francais</option>
 							  
 							  <option value="ir" >Persian</option>
 							  
 							  <!--
-                              <option value="fr" >Francais</option>
+                             
                               <option value="it" >Italiano</option>
 							  -->
                             </select>
@@ -343,7 +383,7 @@ var txtCreating = 'Đang khởi tạo...';
 
 	<div class="container">
 		<div class="leaft_title"><h1>Giá mua UltraViewer</h1></div>
-        <div class="reght_pagenation"><a href="https://ultraviewer.vn/">Trang chủ</a> <i>/</i> Bảng giá</div>
+        <div class="reght_pagenation"><a href="../index.html">Trang chủ</a> <i>/</i> Bảng giá</div>
 	</div>
     
 </div><!-- end page title -->
@@ -375,207 +415,978 @@ var txtCreating = 'Đang khởi tạo...';
 
 	<div class="clearfix mar_top1"></div>
 
-		
+	     
+			
 	
 				
          		<br />
 			
 				
            <div class="pricing-tables-main">
+    <!-- Mobile Tab Interface (hidden on desktop) -->
+    <div class="pricing-tabs-mobile">
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-plan="lite">Lite</button>
+            <button class="tab-btn" data-plan="professional">Professional</button>
+            <button class="tab-btn" data-plan="premium">Premium <span class="popular-badge">Best Choice</span></button>
+        </div>
         
-	
+        <div class="tab-content active" id="lite-content">
+            <div class="plan-mobile-header">
+                <h3>Lite <span>UltraViewer</span></h3>
+            </div>
+            <div class="plan-mobile-body">
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000160-giay-phep-ultraviewer-so-nguoi-dung-va-so-thiet-bi-duoc-cai-ban-quyen.html">
+                      Số người dùng và số thiết bị được cài bản quyền
+                      </a>
+                    </span>
+                    <span class="feature-value">1 người dùng, 1 máy tính</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Cùng 1 lúc có thể điều khiển</span>
+                    <span class="feature-value">1 máy tính</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Số máy cần điều khiển mỗi tháng</span>
+                    <span class="feature-value">10 thiết bị / mỗi tháng</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Gửi file nặng</span>
+                    <span class="feature-value">Tối đa 2 GB/file</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Không quảng cáo</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Ngăn không cho máy tính Sleep</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000051-huong-dan-su-dung-tinh-nang-bat-may-tinh-tu-xa-tren-ultraviewer.html">
+                      Bật máy từ xa khi máy đang Sleep
+                      </a>
+                    </span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000174-cach-su-dung-tinh-nang-danh-ba-may-tinh-tren-ultraviewer.html">
+                      Danh bạ máy tính
+                      </a>
+                    </span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000091-ultraviewer-6-5-chia-se-am-thanh-may-tinh.html">
+                      Nghe âm thanh máy tính
+                      </a>
+                    </span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000117-huong-dan-tao-phien-ban-quick-support-gan-logo-rieng-voi-ultraviewer.html">
+                      Tạo phiên bản gắn logo riêng
+                      </a>
+                    </span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Điều khiển đồ họa nhanh hơn; Kết nối bằng tuyến kết nối khác</span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Quay video</span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+            </div>
+            <div class="plan-mobile-footer">
+                <div class="price">33 k<i>/tháng</i></div>
+                
+                <a class="ordernow_but buynow cd-signup" afterlogin="&lang=vi&afterLogin=/serikey.html?mode=buy_serikey&keytype=4">Mua ngay</a>
+                
+            </div>
+        </div>
+        
+        <div class="tab-content" id="professional-content">
+            <div class="plan-mobile-header">
+                <h3>Professional <span>UltraViewer</span></h3>
+            </div>
+            <div class="plan-mobile-body">
+                <div class="plan-feature">
+                    <span class="feature-name">Số người dùng và số thiết bị được cài bản quyền</span>
+                    <span class="feature-value">Giấy phép có thể được cài đặt trên tối đa 6 máy tính, một người dùng có thể sử dụng tại một thời điểm</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Cùng 1 lúc có thể điều khiển</span>
+                    <span class="feature-value">1 máy tính</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Số máy cần điều khiển mỗi tháng</span>
+                    <span class="feature-value">Không giới hạn</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Gửi file nặng</span>
+                    <span class="feature-value">Tối đa 4 GB/file</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Không quảng cáo</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Ngăn không cho máy tính Sleep</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Bật máy từ xa khi máy đang Sleep</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000174-cach-su-dung-tinh-nang-danh-ba-may-tinh-tren-ultraviewer.html">
+                      Danh bạ máy tính
+                      </a>
+                    </span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Nghe âm thanh máy tính</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Tạo phiên bản gắn logo riêng</span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Điều khiển đồ họa nhanh hơn; Kết nối bằng tuyến kết nối khác</span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Quay video</span>
+                    <span class="feature-value feature-not-available">—</span>
+                </div>
+            </div>
+            <div class="plan-mobile-footer">
+                <div class="price">99 k<i>/tháng</i></div>
+                
+                <a class="ordernow_but buynow cd-signup" afterlogin="&lang=vi&afterLogin=/serikey.html?mode=buy_serikey&keytype=4">Mua ngay</a>
+                
+            </div>
+        </div>
+        
+        <div class="tab-content" id="premium-content">
+            <div class="plan-mobile-header">
+                <h3>Premium <span>UltraViewer</span></h3>
+                <div class="plan-popular-tag">Best Choice</div>
+            </div>
+            <div class="plan-mobile-body">
+                <div class="plan-feature">
+                    <span class="feature-name">Số người dùng và số thiết bị được cài bản quyền</span>
+                    <span class="feature-value">Giấy phép có thể được cài đặt trên tối đa 12 máy tính, một người dùng có thể sử dụng tại một thời điểm</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Cùng 1 lúc có thể điều khiển</span>
+                    <span class="feature-value">Không giới hạn</span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Số máy cần điều khiển mỗi tháng</span>
+                    <span class="feature-value">Không giới hạn</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Gửi file nặng</span>
+                    <span class="feature-value">Tối đa 8 GB/file</span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Không quảng cáo</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Ngăn không cho máy tính Sleep</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Bật máy từ xa khi máy đang Sleep</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000174-cach-su-dung-tinh-nang-danh-ba-may-tinh-tren-ultraviewer.html">
+                      Danh bạ máy tính
+                      </a>
+                    </span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">
+                      
+                        <a target="_blank" href="200000091-ultraviewer-6-5-chia-se-am-thanh-may-tinh.html">
+                      Nghe âm thanh máy tính
+                      </a>
+                    </span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Tạo phiên bản gắn logo riêng</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                <div class="plan-feature">
+                    <span class="feature-name">Điều khiển đồ họa nhanh hơn; Kết nối bằng tuyến kết nối khác</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+                
+                <div class="plan-feature">
+                    <span class="feature-name">Quay video</span>
+                    <span class="feature-value has-icon"><img src="../images/tickmark-icon.png" alt=""></span>
+                </div>
+            </div>
+            <div class="plan-mobile-footer">
+                <div class="price">170 k<i>/tháng</i></div>
+                
+                <a class="ordernow_but buynow cd-signup" afterlogin="&lang=vi&afterLogin=/serikey.html?mode=buy_serikey&keytype=4">Mua ngay</a>
+                
+            </div>
+        </div>
+    </div>
          
-            <div class="mar_top3"></div>
-            <div class="clearfix"></div>
-            
-		    <div class="hosting_page_plan_main">
-            
-            <div class="hosting_page_plan first">
-            	<div class="title">Tính năng / Phiên bản</div>
-                <div class="cont-list">
-                	<ul>
-						<li>
-							
-								<a target="_blank" href="200000160-giay-phep-ultraviewer-so-nguoi-dung-va-so-thiet-bi-duoc-cai-ban-quyen.html">
-							Số người dùng và số thiết bị được cài bản quyền
-							</a>
-						</li>
-					
-                    	<li>Cùng 1 lúc có thể điều khiển</li>					
-					
-                        <li>Số máy cần điều khiển mỗi tháng</li>
-						<li>
-						Gửi file nặng
-						</li>
-						<li>Không quảng cáo</li>
-                        <li>Ngăn không cho máy tính Sleep</li>
-						
-						
-						
-						
-						<li>
-							
-								<a target="_blank" href="200000051-huong-dan-su-dung-tinh-nang-bat-may-tinh-tu-xa-tren-ultraviewer.html">
-							Bật máy từ xa khi máy đang Sleep
-							</a>
-						</li>
-						
-						<li>
-							Hỗ trợ độ phân giải 4K
-						</li>
-						
-						
-						<li>Danh bạ máy tính</li>
-						
-						<li>
-						
-							<a target="_blank" href="200000091-ultraviewer-6-5-chia-se-am-thanh-may-tinh.html">
-						Nghe âm thanh máy tính
-							</a>
-						</li>
-						
-						<li>
-							
-								<a target="_blank" href="200000117-huong-dan-tao-phien-ban-quick-support-gan-logo-rieng-voi-ultraviewer.html">
-							Tạo phiên bản gắn logo riêng
-							</a>
-						</li>
-						<li>Điều khiển đồ họa nhanh hơn; Kết nối bằng tuyến kết nối khác</li>
-						
-						
-					
-                        <li>Quay video</li>
-						
-                    </ul>
+    <!-- Keep the existing desktop table layout -->
+    <div class="plan-table desktop-only">
+              <div class="plan-row plan-header">
+                <div class="plan-cell">Tính năng / Phiên bản</div>
+                <div class="plan-cell">
+                  <div class="plan-title">Lite</div>
+                  <div class="plan-subtitle">UltraViewer</div>
                 </div>
-                <div class="ordernow"><h4>Giá bán<span style="display: block; font-size:13px; color:#8B8EA2">(Thanh toán 1 năm)</span></h4></div>
-            </div><!-- end section -->
-            
-            <div class="hosting_page_plan">
-            	<div class="title">UltraViewer - Lite</div>
-                <div class="cont-list">
-                	<ul>
-						<li>1 người dùng, 1 máy tính</li>
-					
-                    	<li>1 máy tính</li>
-					
-                        <li>10 thiết bị / mỗi tháng</li>
-						<li>Tối đa 2 GB/file</li>
-                        <li><img src="../images/tickmark-icon.png" alt=""></li>
-                        <li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						<li>&nbsp;</li>
-						
-						<li>&nbsp;</li>
-						
-						<li>&nbsp;</li>
-						<li>&nbsp;</li>
-						
-						
-                        <li>&nbsp;</li>
-
-						
-                    </ul>
+                <div class="plan-cell">
+                  <div class="plan-title">Professional</div>
+                  <div class="plan-subtitle">UltraViewer</div>
                 </div>
-                <div class="ordernow"> 
-						
-				<span class="price">33 k<i>/tháng</i></span>
-
-				<a class="ordernow_but buynow cd-signup" afterlogin="%26lang%3dvi%26afterLogin%3d/serikeyed43.html?mode=buy_serikey&amp;keytype=4">Mua ngay</a>
-
-				
-				</div>
-            </div><!-- end section -->
-            
-            
-            <div class="hosting_page_plan">
-            	<div class="title">UltraViewer - Professional</div>
-                <div class="cont-list">
-                	<ul>
-						<li>1 người dùng, 3 máy tính</li>
-						
-                    	<li>1 máy tính</li>
-						
-                        <li>Không giới hạn</li>
-						<li>Tối đa 4 GB/file</li>
-                        <li><img src="../images/tickmark-icon.png" alt=""></li>
-                        <li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						<li>&nbsp;</li>
-						<li>&nbsp;</li>
-						
-						
-                        <li>&nbsp;</li>
-
-						
-                    </ul>
+                <div class="plan-cell">
+                  <div class="plan-title">Premium</div>
+                  <div class="plan-subtitle">UltraViewer</div>
+                  <div class="popular-tag">Best Choice</div>
                 </div>
-                <div class="ordernow"> 
-						
-				<span class="price">99 k<i>/tháng</i></span> <a class="ordernow_but buynow cd-signup" afterlogin="%26lang%3dvi%26afterLogin%3d/serikeyed43.html?mode=buy_serikey&amp;keytype=4">Mua ngay</a>
-
-				
-				</div>
-            </div><!-- end section -->
-            
-            
-            <div class="hosting_page_plan">
-            	<div class="title">UltraViewer - Premium</div>
-                <div class="cont-list">
-                	<ul>
-						<li>1 người dùng, 5 máy tính</li>
-						
-                    	<li>Không giới hạn</li>
-						
-                        <li>Không giới hạn</li>
-						<li>Tối đa 8 GB/file</li>
-                        <li><img src="../images/tickmark-icon.png" alt=""></li>
-                        <li><img src="../images/tickmark-icon.png" alt=""></li>
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-                        
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-						
-						
-						<li><img src="../images/tickmark-icon.png" alt=""></li>
-                    </ul>
+              </div>
+              
+              <div class="plan-row">
+                <div class="plan-cell">
+                  
+                    <a target="_blank" href="200000160-giay-phep-ultraviewer-so-nguoi-dung-va-so-thiet-bi-duoc-cai-ban-quyen.html">
+                  Số người dùng và số thiết bị được cài bản quyền
+                  </a>
                 </div>
-                 <div class="ordernow"> 
-						
-				<span class="price">170 k<i>/tháng</i></span> <a class="ordernow_but buynow cd-signup" afterlogin="%26lang%3dvi%26afterLogin%3d/serikeyed43.html?mode=buy_serikey&amp;keytype=4">Mua ngay</a>
-
-				
-				</div>
-            </div><!-- end section -->
-           
-           </div>
-		   
-		  
+                <div class="plan-cell">1 người dùng, 1 máy tính</div>
+                <div class="plan-cell">Giấy phép có thể được cài đặt trên tối đa 6 máy tính, một người dùng có thể sử dụng tại một thời điểm</div>
+                <div class="plan-cell">Giấy phép có thể được cài đặt trên tối đa 12 máy tính, một người dùng có thể sử dụng tại một thời điểm</div>
+              </div>
+              
+              
+              <div class="plan-row">
+                <div class="plan-cell">Cùng 1 lúc có thể điều khiển</div>
+                <div class="plan-cell">1 máy tính</div>
+                <div class="plan-cell">1 máy tính</div>
+                <div class="plan-cell">Không giới hạn</div>
+              </div>
+              
+              
+              <div class="plan-row">
+                <div class="plan-cell">Số máy cần điều khiển mỗi tháng</div>
+                <div class="plan-cell">10 thiết bị / mỗi tháng</div>
+                <div class="plan-cell">Không giới hạn</div>
+                <div class="plan-cell">Không giới hạn</div>
+              </div>
+              
+              <div class="plan-row">
+                <div class="plan-cell">Gửi file nặng</div>
+                <div class="plan-cell">Tối đa 2 GB/file</div>
+                <div class="plan-cell">Tối đa 4 GB/file</div>
+                <div class="plan-cell">Tối đa 8 GB/file</div>
+              </div>
+              
+              <div class="plan-row">
+                <div class="plan-cell">Không quảng cáo</div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              <div class="plan-row">
+                <div class="plan-cell">Ngăn không cho máy tính Sleep</div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              
+              <div class="plan-row">
+                <div class="plan-cell">
+                  
+                    <a target="_blank" href="200000051-huong-dan-su-dung-tinh-nang-bat-may-tinh-tu-xa-tren-ultraviewer.html">
+                  Bật máy từ xa khi máy đang Sleep
+                  </a>
+                </div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              
+              <div class="plan-row">
+                <div class="plan-cell">
+                  
+                    <a target="_blank" href="200000174-cach-su-dung-tinh-nang-danh-ba-may-tinh-tren-ultraviewer.html">
+                  Danh bạ máy tính
+                  </a>
+                </div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              <div class="plan-row">
+                <div class="plan-cell">
+                  
+                    <a target="_blank" href="200000091-ultraviewer-6-5-chia-se-am-thanh-may-tinh.html">
+                  Nghe âm thanh máy tính
+                  </a>
+                </div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              
+              <div class="plan-row">
+                <div class="plan-cell">
+                  
+                    <a target="_blank" href="200000117-huong-dan-tao-phien-ban-quick-support-gan-logo-rieng-voi-ultraviewer.html">
+                  Tạo phiên bản gắn logo riêng
+                  </a>
+                </div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              <div class="plan-row">
+                <div class="plan-cell">Điều khiển đồ họa nhanh hơn; Kết nối bằng tuyến kết nối khác</div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              
+              <div class="plan-row">
+                <div class="plan-cell">Quay video</div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell">&nbsp;</div>
+                <div class="plan-cell"><img src="../images/tickmark-icon.png" alt=""></div>
+              </div>
+              
+              <div class="plan-row plan-footer">
+                <div class="plan-cell"><strong>Giá bán</strong><br><span style="font-size:13px; color:#8B8EA2">(Thanh toán 1 năm)</span></div>
+                <div class="plan-cell">
+                  <span class="price">33 k<i>/tháng</i></span><br>
+                  
+                  <a class="ordernow_but buynow cd-signup" afterlogin="%26lang%3dvi%26afterLogin%3d/serikeyed43.html?mode=buy_serikey&amp;keytype=4">Mua ngay</a>
+                  
+                </div>
+                <div class="plan-cell">
+                  <span class="price">99 k<i>/tháng</i></span><br>
+                  
+                  <a class="ordernow_but buynow cd-signup" afterlogin="%26lang%3dvi%26afterLogin%3d/serikeyed43.html?mode=buy_serikey&amp;keytype=4">Mua ngay</a>
+                  
+                </div>
+                <div class="plan-cell">
+                  <span class="price">170 k<i>/tháng</i></span><br>
+                  
+                  <a class="ordernow_but buynow cd-signup" afterlogin="%26lang%3dvi%26afterLogin%3d/serikeyed43.html?mode=buy_serikey&amp;keytype=4">Mua ngay</a>
+                  
+                </div>
+              </div>
+            </div>
 
            </div><!-- end pricing tables with 3 columns -->
 
+<style>
+    .pricing-tables-main {
+      width: 100%;
+      max-width: 100%;
+      padding: 0;
+      margin: 0;
+      border: none;
+      font-family: 'Open Sans', Arial, sans-serif;
+    }
+    
+    .plan-table {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 100%;
+      font-family: 'Open Sans', Arial, sans-serif;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+      margin: 20px 0;
+    }
+
+    .plan-row {
+      display: flex;
+      width: 100%;
+      border-bottom: 1px solid #eee4e4;
+      transition: all 0.3s ease;
+    }
+
+    .plan-row:hover:not(.plan-header):not(.plan-footer) {
+      background-color: rgba(37, 170, 226, 0.08);
+      transform: translateY(-1px);
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .plan-row:last-child {
+      border-bottom: none;
+    }
+
+    .plan-cell {
+      flex: 1 1 25%;
+      padding: 10px 15px;
+      border-right: 1px solid #eee4e4;
+      word-break: break-word;
+      vertical-align: middle;
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      line-height: 1.5;
+      font-size: 14px;
+      transition: all 0.3s ease;
+    }
+    
+    .plan-cell:first-child {
+      flex: 1 1 30%;
+      font-weight: 600;
+      color: #333;
+      border-left: 1px solid #eee4e4;
+    }
+    
+    .plan-cell:not(:first-child) {
+      justify-content: center;
+      text-align: center;
+    }
+
+    .plan-row .plan-cell:last-child {
+      border-right: 1px solid #eee4e4;
+    }
+
+    .plan-header {
+      position: relative;
+      background: linear-gradient(135deg, #2b3a6a, #25aae2);
+      font-weight: bold;
+      text-align: center;
+      color: white;
+      border-bottom: none;
+      height: 110px;
+    }
+    
+    .plan-header .plan-cell {
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 16px;
+      border-right: 1px solid rgba(255,255,255,0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .plan-header .plan-cell:first-child {
+      background-color: rgba(0,0,0,0.2);
+      color: rgba(255,255,255,0.9);
+      font-size: 15px;
+      letter-spacing: 0.5px;
+    }
+    
+    .plan-header .plan-cell:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.05) 100%);
+      z-index: 1;
+    }
+    
+    .plan-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin: 5px 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .plan-subtitle {
+      font-size: 14px;
+      opacity: 0.8;
+      font-weight: 400;
+      position: relative;
+      z-index: 2;
+    }
+    
+    .popular-tag {
+      position: absolute;
+      top: 25px;
+      right: -30px;
+      background: #ff9800;
+      color: white;
+      font-size: 11px;
+      padding: 3px 30px;
+      transform: rotate(45deg);
+      z-index: 1;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .plan-footer {
+      background-color: #f8f9fa;
+      border-top: 1px solid #eee;
+    }
+
+    .plan-footer .plan-cell {
+      text-align: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 25px 15px;
+    }
+    
+    .plan-footer .plan-cell:first-child {
+      text-align: left;
+      align-items: flex-start;
+    }
+
+    .plan-cell img {
+      height: 22px;
+      margin: 0 auto;
+      display: block;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    .price {
+      width: 100%;
+      padding: 0 0 15px 0;
+      text-align: center;
+      font-size: 28px;
+      color: #25aae2;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      margin-bottom: 10px;
+      position: relative;
+    }
+    
+    .price i {
+      font-size: 14px;
+      color: #25aae2;
+      font-weight: 400;
+      font-style: normal;
+      margin-top: 5px;
+      display: block;
+    }
+
+    .ordernow_but {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background: linear-gradient(to bottom, #2d8bff, #1976d2);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      width: 80%;
+      max-width: 160px;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 13px;
+      transition: all 0.3s ease;
+      border: none;
+      box-shadow: 0 4px 6px rgba(45,139,255,0.2);
+    }
+
+    .ordernow_but:hover {
+      background: linear-gradient(to bottom, #216fd4, #1565c0);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(45,139,255,0.3);
+    }
+    
+    /* Premium plan highlight - removing the special background color */
+    .plan-cell.premium-highlight {
+      /* background-color: rgba(45,139,255,0.05); */ /* Removing this special styling */
+    }
+    
+    /* Feature available/not available styles */
+    .feature-available {
+      color: #4CAF50;
+      font-weight: 600;
+    }
+    
+    .feature-not-available {
+      color: #ccc;
+      font-style: italic;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .plan-cell {
+        padding: 12px 8px;
+        font-size: 13px;
+      }
+      
+      .plan-cell:first-child {
+        flex: 1 1 35%;
+      }
+      
+      .plan-header .plan-cell {
+        font-size: 14px;
+        padding: 15px 8px;
+      }
+      
+      .price {
+        font-size: 24px;
+      }
+      
+      .ordernow_but {
+        padding: 8px 15px;
+        font-size: 12px;
+        max-width: 120px;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .plan-row {
+        flex-wrap: wrap;
+      }
+      
+      .plan-cell {
+        flex: 1 1 50%;
+      }
+      
+      .plan-cell:first-child {
+        flex: 1 1 100%;
+        border-bottom: 1px solid #eee;
+        border-right: none;
+      }
+      
+      .plan-header .plan-cell:first-child {
+        display: none;
+      }
+    }
+    
+    /* Mobile Tab Interface */
+    .desktop-only {
+        display: flex;
+    }
+    
+    .pricing-tabs-mobile {
+        display: none;
+        width: 100%;
+        margin: 20px 0;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+    }
+    
+    .tab-buttons {
+        display: flex;
+        width: 100%;
+        background: linear-gradient(135deg, #2b3a6a, #25aae2);
+        position: relative;
+    }
+    
+    .tab-btn {
+        flex: 1;
+        padding: 75px 5px;
+        text-align: center;
+        background: none;
+        color: rgba(255,255,255,0.7);
+        border: none;
+        font-weight: 600;
+        font-size: 14px;
+        border-bottom: 3px solid transparent;
+        position: relative;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .tab-btn.active {
+        color: white;
+        border-bottom-color: white;
+        background-color: rgba(255,255,255,0.1);
+    }
+    
+    .popular-badge {
+        display: inline-block;
+        font-size: 10px;
+        background: #ff9800;
+        color: white;
+        padding: 2px 5px;
+        border-radius: 10px;
+        margin-left: 5px;
+        vertical-align: top;
+        font-weight: normal;
+    }
+    
+    .tab-content {
+        display: none;
+        padding: 0;
+        background: #fff;
+    }
+    
+    .tab-content.active {
+        display: block;
+    }
+    
+    .plan-mobile-header {
+        padding: 20px 15px;
+        text-align: center;
+        background: #f8f9fa;
+        position: relative;
+    }
+    
+    .plan-mobile-header h3 {
+        margin: 0;
+        color: #2b3a6a;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .plan-mobile-header h3 span {
+        display: block;
+        font-size: 14px;
+        color: #8B8EA2;
+        font-weight: 400;
+        margin-top: 5px;
+    }
+    
+    .plan-popular-tag {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: #ff9800;
+        color: white;
+        font-size: 11px;
+        padding: 3px 10px;
+        border-radius: 30px;
+        font-weight: 600;
+    }
+    
+    .plan-mobile-body {
+        padding: 0;
+    }
+    
+    .plan-feature {
+        display: flex;
+        padding: 12px 15px;
+        border-bottom: 1px solid #eee;
+        transition: all 0.3s ease;
+    }
+    
+    .plan-feature:hover {
+        background-color: rgba(37, 170, 226, 0.08);
+    }
+    
+    .feature-name {
+        flex: 1;
+        font-weight: 600;
+        color: #333;
+        padding-right: 10px;
+    }
+    
+    .feature-value {
+        flex: 1;
+        text-align: center;
+        color: #666;
+    }
+    
+    .feature-value.has-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .plan-mobile-footer {
+        padding: 20px 15px;
+        text-align: center;
+        background: #f8f9fa;
+        border-top: 1px solid #eee;
+    }
+    
+    .plan-mobile-footer .price {
+        text-align: center;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    
+    .plan-mobile-footer .ordernow_but {
+        margin: 0;
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+        .desktop-only {
+            display: none;
+        }
+        
+        .pricing-tabs-mobile {
+            display: block;
+        }
+    }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get all rows for highlighting and styling
+    const rows = document.querySelectorAll('.plan-row');
+    
+    // Apply premium highlight and handle empty cells
+    rows.forEach(function(row) {
+      // Add premium highlight to the Premium column cells
+      const cells = row.querySelectorAll('.plan-cell');
+      if (cells.length >= 4) {
+        cells[3].classList.add('premium-highlight');
+      }
+      
+      // Enhance row hover effect for non-header/footer rows
+      if (!row.classList.contains('plan-header') && !row.classList.contains('plan-footer')) {
+        row.addEventListener('mouseover', function() {
+          this.style.backgroundColor = 'rgba(37, 170, 226, 0.08)';
+          this.style.transform = 'translateY(-1px)';
+          this.style.boxShadow = '0 3px 10px rgba(0, 0, 0, 0.05)';
+        });
+        
+        row.addEventListener('mouseout', function() {
+          this.style.backgroundColor = '';
+          this.style.transform = '';
+          this.style.boxShadow = '';
+        });
+      }
+    });
+    
+    // Replace empty cells with dash
+    const emptyCells = document.querySelectorAll('.plan-cell');
+    emptyCells.forEach(function(cell) {
+      if (cell.innerHTML.trim() === '&nbsp;') {
+        cell.innerHTML = '<span class="feature-not-available">—</span>';
+      }
+    });
+    
+    // Add animation effect to order buttons
+    const orderButtons = document.querySelectorAll('.ordernow_but');
+    orderButtons.forEach(function(btn) {
+      btn.addEventListener('mouseover', function() {
+        this.style.transform = 'translateY(-2px)';
+      });
+      btn.addEventListener('mouseout', function() {
+        this.style.transform = 'translateY(0)';
+      });
+    });
+    
+    // Add subtle animation to plan headers on hover
+    const planHeaders = document.querySelectorAll('.plan-header .plan-cell:not(:first-child)');
+    planHeaders.forEach(function(header) {
+      header.addEventListener('mouseover', function() {
+        this.style.transform = 'translateY(-3px)';
+        this.style.boxShadow = '0 5px 15px rgba(0,0,0,0.1)';
+      });
+      header.addEventListener('mouseout', function() {
+        this.style.transform = 'translateY(0)';
+        this.style.boxShadow = 'none';
+      });
+    });
+    
+    // Add row highlight effect on mobile view
+    const planFeatures = document.querySelectorAll('.plan-feature');
+    planFeatures.forEach(function(feature) {
+      feature.addEventListener('mouseover', function() {
+        this.style.backgroundColor = 'rgba(37, 170, 226, 0.08)';
+      });
+      feature.addEventListener('mouseout', function() {
+        this.style.backgroundColor = '';
+      });
+    });
+    
+    // Mobile tabs functionality
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabContents = document.querySelectorAll('.tab-content');
+    
+    tabButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons and contents
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        tabContents.forEach(content => content.classList.remove('active'));
+        
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        // Show corresponding content
+        const planType = this.getAttribute('data-plan');
+        document.getElementById(planType + '-content').classList.add('active');
+      });
+    });
+  });
+</script>
 
 
 	
     <div class="clearfix mar_top1"></div>        
 	<div class="mar_top3"></div>
-            <div class="clearfix"></div>
 			
 
 	
@@ -591,7 +1402,7 @@ var txtCreating = 'Đang khởi tạo...';
 		
 		<div class="one_half">
         <h6>Số người dùng và số thiết bị được cài bản quyền</h6>
-        <p>Mỗi bản quyền tương ứng với 1 người sử dụng cùng lúc. Bạn có thể thay đổi bản quyền sang máy tính khác khi cần. Đối với phiên bản Pro và Premium, mỗi người dùng có thể cài bản quyền lên nhiều thiết bị (ví dụ quý khách có 1 máy tính laptop và 1 máy tính bàn nhưng vẫn chỉ là 1 người dùng cùng lúc).</p>
+        <p>Mỗi giấy phép tương ứng với 1 người sử dụng cùng lúc. Bạn có thể thay đổi bản quyền sang máy tính khác khi cần. Đối với phiên bản Pro và Premium, mỗi người dùng có thể cài bản quyền lên nhiều thiết bị (ví dụ quý khách có 1 máy tính laptop và 1 máy tính bàn nhưng vẫn chỉ là 1 người dùng cùng lúc).</p>
         </div>
         
         <div class="one_half last">
@@ -642,7 +1453,7 @@ var txtCreating = 'Đang khởi tạo...';
 			</ul>
 
 			<div id="cd-login"> <!-- log in form -->
-				<form id="frmlogin" class="cd-form" method="post" action="https://ultraviewer.vn/" original-action="https://ultraviewer.vn/">
+				<form id="frmlogin" class="cd-form" method="post" action="https://console.ultraviewer.vn/login.aspx?action=login&amp;cid=0" original-action="https://console.ultraviewer.vn/login.aspx?action=login&amp;cid=0">
 					<p class="fieldset">
 						<label class="image-replace cd-email" for="signin-email">E-mail</label>
 						<input class="full-width has-padding has-border" name="email" id="signin-email" type="email" placeholder="Địa chỉ Email">
@@ -666,13 +1477,13 @@ var txtCreating = 'Đang khởi tạo...';
 					<input type="hidden" name="action" value="submit" />
 				</form>
 				
-				<p class="cd-form-bottom-message"><a target="_blank" href="https://ultraviewer.vn/">Quên mật khẩu?</a></p>
+				<p class="cd-form-bottom-message"><a target="_blank" href="https://console.ultraviewer.vn/login.aspx?action=forgotpassword">Quên mật khẩu?</a></p>
 				<!--href="#0" -->
 				<!-- <a href="#0" class="cd-close-form">Close</a> -->
 			</div> <!-- cd-login -->
 
 			<div id="cd-signup"> <!-- sign up form -->
-				<form id="frmregister" class="cd-form" method="POST" action="https://ultraviewer.vn/" original-action="https://ultraviewer.vn/">
+				<form id="frmregister" class="cd-form" method="POST" action="https://console.ultraviewer.vn/login.aspx?action=register&amp;cid=0" original-action="https://console.ultraviewer.vn/login.aspx?action=register&amp;cid=0">
 					<input type="hidden" name="action" value="submit" />
 					
 					<p class="fieldset gioitinhfield">
@@ -853,6 +1664,9 @@ return 0;
 			
             <li><a href="tos.html">Điều khoản sử dụng &amp; thanh toán</a></li>
 			<li><a href="privacy.html">Chính sách bảo mật</a></li>
+			
+			<li><a href="product-info.html">Thông tin hàng hóa</a></li>
+			
             </ul>
         
         </div><!-- end support links -->
@@ -878,12 +1692,15 @@ return 0;
             
             <ul class="address-liste">
 			
-                <li class="icon2">+84 24.7300.9199</li>
+            	<li><strong>CÔNG TY TNHH MTV ULTRALAB</strong></li>
+            	<li>Tầng 10, Tòa nhà Ladeco, Số 266 đường Đội Cấn, Phường Ngọc Hà, TP Hà Nội</li>
+            	<li>MST: 0111327427</li>
+			
                 <!--<li class="icon3">0123-4567-8900</li>-->
-                <li class="icon4"><a href="mailto:support@ultraviewer.net">support@ultraviewer.net</a></li>
-                <li class="icon4"><a href="mailto:sales@ultraviewer.net">sales@ultraviewer.net</a></li>
-				<li class="icon4"><a href="mailto:contact@ultraviewer.net">contact@ultraviewer.net</a></li>
-				<li class="icon4"><a target="_blank" href="https://ultraviewer.vn/report-scam.aspx">Report scam</a></li>
+                <li class="icon4"><a href="mailto:support-vi@ultraviewer.vn">support-vi@ultraviewer.vn</a></li>
+                <li class="icon4"><a href="mailto:sales@ultraviewer.vn">sales@ultraviewer.vn</a></li>
+				
+				<li class="icon4"><a target="_blank" href="../report-scam.html">Report scam</a></li>
             </ul>
         
         </div><!-- end address -->
@@ -922,7 +1739,7 @@ return 0;
             
             	<img src="../images/newsletter-icon.png" alt="" class="image_left1" width="28" height="40"/><h4>Nhận<br />Email</h4>
                 
-                <form method="get" action="https://ultraviewer.vn/">   
+                <form method="get" action="https://www.ultraviewer.vn/">   
 					<input class="enter_email_input" name="samplees" id="samplees" value="Nhập email của bạn" onFocus="if(this.value == 'Nhập email của bạn') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Nhập email của bạn';}" type="text">
 					<input name="" value="Đăng ký" class="input_submit" type="submit">
 					</form>
@@ -966,7 +1783,7 @@ return 0;
                     
         </div>
         
-        <div class="one_half last"><b>@ Copyright UltraViewer 2024 | Đã đăng ký bản quyền<sup>TM</sup></b></div>
+        <div class="one_half last"><b>@ Copyright UltraViewer 2026 | Đã đăng ký bản quyền<sup>TM</sup></b></div>
 		
         
         
@@ -997,5 +1814,5 @@ return 0;
 
 </body>
 
-<!-- Mirrored from www.ultraviewer.net/vi/pricing.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 10 Jan 2024 09:03:26 GMT -->
+
 </html>

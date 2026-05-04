@@ -1,0 +1,944 @@
+
+<!doctype html>
+
+<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-gb" class="no-js"> <!--<![endif]-->
+
+
+
+<!-- Mirrored from www.ultraviewer.net/en/200000270-remotely-reboot-unresponsive-computers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2026 13:49:45 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+	<style>
+/* page title */
+@media (min-width:320px)  { 
+	.page_title {
+		background: url(../images/sliders/revolution/slider-bg-mobile.jpg) no-repeat center top;
+	}
+}
+@media (min-width:600px) {
+	.page_title {
+		background: url(../images/sliders/revolution/slider-bg.jpg) no-repeat center top;
+	}
+}
+.page_title {
+	width: 100%;
+	min-height: 50px;
+	padding-top: 20px;
+	margin: -20px 0px 0px 0px;
+}
+.page_title .leaft_title {
+	width: 68%;
+	display: block;
+	float: left;
+	text-align: left;
+	margin: 0px 0 0 0px;
+}
+.page_title .leaft_title h1 { 
+	font-size: 22px;
+	line-height: 30px;
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.page_title .reght_pagenation {
+	float: right;
+	width: 28%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	text-align: right;
+	font-weight: 600;
+	color: #fff;
+	margin: 0px 0 0 0px;
+	padding: 7px 0 0px 0px;
+}
+.page_title .reght_pagenation i {
+	color: #eee;
+	margin: 0px 2px 0px 2px;
+}
+.page_title .reght_pagenation a {
+	padding: 0px 0px 0px 0px;
+	color: #eee;
+}
+.page_title .reght_pagenation a:hover {
+	color: #fff;
+}
+	</style>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" /> 
+	<meta charset="utf-8">
+	
+	<link rel="alternate" hreflang="en" href="../index.html">
+	
+	<title>How to Remotely Reboot Unresponsive Computers: The Ultimate Guide</title>
+	<meta name="description" content="Learn how to remotely reboot an unresponsive computer using UltraViewer, CMD, and RDP. Step-by-step guide for IT professionals & remote workers." />
+	
+	<meta property="og:image" content="https://www.ultraviewer.net/ckfinder/userfiles/diemtrang/images/1_ultraviewer%206.5.png" />
+	
+	<link rel="stylesheet" href="../css/blog_gzip.css" type="text/css" />
+	
+	
+    <!-- Favicon --> 
+	<!--<link rel="shortcut icon" href="/images/favicon.ico" type="image/vnd.microsoft.icon" >-->
+	<link href="../ultraviewer.ico" rel="shortcut icon">
+    <!-- this styles only adds some repairs on idevices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+	 
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap" as="style">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;display=swap">
+	
+    <!--[if lt IE 9]>
+		<script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    
+    <!-- ######### CSS STYLES ######### -->
+	
+    <link rel="stylesheet" href="../css/reset_gzip.css" type="text/css" />
+	
+		<link rel="stylesheet" href="../css/style-min3_gzip.css" type="text/css" />
+		
+    <!-- responsive devices styles -->
+	<link rel="stylesheet" media="screen" href="../css/responsive-leyouts-min_gzip.css" type="text/css" />
+    
+
+    
+    
+    
+    <!-- jquery jcarousel -->
+    <link rel="stylesheet" type="text/css" href="../js/jcarousel/skin_gzip.css" />
+    
+  
+    <!-- faqs -->
+    <link rel="stylesheet" href="../js/accordion/accordion_gzip.css" type="text/css" media="all">
+
+
+	
+	<script type="text/javascript">
+		var cLanguage = "en";
+		function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";domain=.ultraviewer.net;path=/";
+}
+var offset = new Date().getTimezoneOffset();
+setCookie("timezoneoffset" , offset, 365);
+	</script>
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script defer src="https://www.googletagmanager.com/gtag/js?id=G-8J20SLZ4R2"></script>
+	<script defer>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-8J20SLZ4R2');
+	</script>
+
+<script async src="../../pagead2.googlesyndication.com/pagead/js/fc79d.txt?client=ca-pub-9282100529336347"
+     crossorigin="anonymous"></script>
+	 
+</head>
+
+<body>
+
+
+<div class="site_wrapper">
+	
+    <div class="container_full">
+    
+    	<div class="top_links">
+            <div class="container">
+            	
+			<div class="date_wrap">
+			<b class='date'></b>
+			
+			<script type="text/javascript">
+			function changeLanguage(loc) {
+			window.location = window.location.href.replace( /\/en\//i , '/' + loc.options[loc.selectedIndex].value + '/');
+			expireDate = new Date();
+			expireDate.setTime(expireDate.getTime() + (86400000)); // 1 Tag
+			document.cookie = "language=" + loc.options[loc.selectedIndex].value + "; expires=" + expireDate.toUTCString() + "; path=/";			
+			}
+			</script>
+			
+            </div><!-- end date -->
+            
+            <div class="top_contact_info">
+                    <ul class="tci_list">
+			
+
+						<li class="email"> 
+						<div class="dropdown">
+						
+						  <a href="https://console.ultraviewer.net/?lang=en" target="_blank"><strong>Log in ▼</strong></a>
+						  
+						  
+						  <div id="myDropdown" class="dropdown-content">
+
+							<a href="https://console.ultraviewer.net/" target="_blank">Trang quản trị</a>
+							 
+						  </div>
+						</div>
+						</li>
+			
+			
+                        <!--<li class="phone">Hotline : 04.7300.9199</li>-->
+                        <li><a target="_blank" href="http://facebook.com/ultraviewer/"><img src="../images/top_si1.png" alt="Facebook" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si2.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si3.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si4.png" alt="" width="15" height="15"/></a></li>
+                        <li><a href="#"><img src="../images/top_si5.png" alt="" width="15" height="15"/></a></li>
+                        <li class="country"><a href="#">Language:</a></li>
+                        <li class="country_select">
+                            <select onchange="changeLanguage(this)">
+							  <option value="en" selected>English</option>
+							  <option value="it" >Italiano</option>
+							  <option value="pl" >Polskie</option>
+                              <option value="vi" >Tiếng Việt</option>
+							  <option value="sr" >Srpski</option>
+							  <option value="id" >Bahasa Indonesia</option>
+							  <option value="ru" >Pусский</option>
+							  <option value="ro" >Română</option>
+							  <option value="pt" >Português</option>
+							  <option value="tw" >正體中文</option>
+							  <option value="cn" >简体中文</option>
+							  <option value="kr" >한국어</option>
+							  <option value="jp" >日本語</option>
+							  <option value="th" >ภาษาไท</option>
+							  <option value="es" >Español</option>
+							  <option value="tr" >Turkish</option>
+							  <option value="fr" >Francais</option>
+							  
+							  <option value="ir" >Persian</option>
+							  
+							  <!--
+                             
+                              <option value="it" >Italiano</option>
+							  -->
+                            </select>
+                        </li>  
+                    </ul>
+            </div><!-- end top contact info -->
+                
+            
+            </div>
+    	</div><!-- end top links -->
+        
+        
+        <div class="top_section">
+
+    	<div class="container">
+
+    		<div id="logo">
+			<div class="logo_container" style="display: inline; float:left; margin-top:15px; margin-right:10px" >
+			<img src="../images/logo.png" alt="UltraViewer Logo"/>
+			</div>
+			<a href="index.html" class="site_logo" style="display:inline;"><h1>ULTRA<i>VIEWER</i></h1></a></div><!-- end logo -->
+
+			<nav id="access" class="access" role="navigation">
+
+            
+                <div id="menu" class="menu">
+                    
+					
+                    <ul id="tiny">
+                        <li><a href="index.html" >What's UltraViewer?</a></li>
+						<li><a href="download.html" >Download</a></li>
+						<li><a href="faq.html" >Document</a></li>
+
+		<li><a href="pricing.html" >Pricing</a></li>
+
+                        <li><a href="blog.html"  class="active">Blog</a></li>
+
+                        <li><a href="contact.html" >Contact</a></li>
+
+                    </ul>
+                    
+                </div>
+                
+
+			</nav>
+                
+
+		</div> 
+
+	</div>
+    
+   <div class="top_shadow"></div><!-- end shadow -->
+
+</div><!-- end top -->
+
+
+<!-- ######### JS FILES ######### -->
+
+
+
+
+<!-- main menu -->
+<script type="text/javascript" src="../js/mainmenu/ddsmoothmenu_gzip.js" defer></script>
+
+<script type="text/javascript" src="../js/mainmenu/selectnav_gzip.js" defer></script>
+
+<!-- get jQuery from the google apis -->
+<script type="text/javascript" src="../js/universal/jquery191.min_gzip.js" defer></script>
+<!-- jquery jcarousel -->
+<script type="text/javascript" src="../js/jcarousel/jquery.jcarousel.min_gzip.js" defer></script>
+
+<!-- top_menu -->
+	<link rel="stylesheet" type="text/css" href="../js/topmenu/topmenu_gzip.css" />
+	<script src="../js/topmenu/topmenu_gzip.js" defer></script>
+	
+	
+
+<script type="text/javascript" src="../js/mainmenu/scripts_gzip.js" defer></script>
+
+
+
+<style type="text/css">
+ a.cancelreply:hover {
+  cursor:pointer;
+ }
+</style>
+
+<div class="page_title">
+
+	<div class="container">
+		<div class="leaft_title"><h1>Blog</h1></div>
+        <div class="reght_pagenation"><a href="../index.html">Homepage</a> <i>/</i> <a href="blog.html">Blog</a> <i>/</i> Blog Post</div>
+	</div>
+    
+</div><!-- end page title -->
+
+<div class="clearfix"></div>
+
+<div class="container">
+
+	<div class="content_left">
+        	
+            <div class="blog_post">	
+				<div class="blog_postcontent">
+                <a href="#" class="date"><strong>28</strong><i>February</i></a>
+				<h1><a href="200000270-remotely-reboot-unresponsive-computers.html">How to Remotely Reboot Unresponsive Computers: The Ultimate Guide</a></h1>
+                    <ul class="post_meta_links">
+                        <li class="post_by"><a href="#">Tracy Tran</a></li>
+                        <li class="post_categoty"><a href="blog6aa1.html?filter=ultraviewer-help"></a></li>
+                        <li class="post_comments"><a href="#">0 comments</a></li>
+                    </ul>
+                 
+				<div class="post_info_content">
+				<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">A frozen or unresponsive computer can be frustrating, especially when you&rsquo;re not physically present to fix it. Whether you&rsquo;re managing IT support, accessing a work computer remotely, or assisting a friend, knowing how to</span></span></span> remotely reboot unresponsive computers is essential.</p>
+
+<p>Fortunately, there are several reliable methods to restart a computer remotely, ensuring minimal downtime and uninterrupted workflow. In this guide, we will explore three simple yet effective methods to remotely reboot a frozen system:</p>
+
+<ul>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Using UltraViewer</b> &ndash; A remote desktop software for easy access and control.</span></span></span></span></li>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Using Command Prompt (CMD)</b> &ndash; A built-in Windows command for remote shutdown and restart.</span></span></span></span></li>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Using Remote Desktop Protocol (RDP)</b> &ndash; A native Windows feature for full remote access.</span></span></span></span></li>
+</ul>
+
+<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">By following these step-by-step instructions, you&rsquo;ll be able to regain control of an unresponsive computer quickly and efficiently</span></span></span><em data-end="4929" data-start="4816">.</em></p>
+
+<hr data-end="4936" data-start="4933" />
+<h2 data-end="5005" data-start="4938"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>How to Remotely Reboot an Unresponsive Computer Using UltraViewer</b></span></span></span></h2>
+
+<h3 style="margin-bottom: 11px;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Why Choose UltraViewer?</b></span></span></span></h3>
+
+<p style="text-align:center"><img alt="Remotely Reboot an Unresponsive Computer Using UltraViewer" src="../ckfinder/userfiles/diemtrang/images/1_ultraviewer%206.5.png" /></p>
+
+<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">UltraViewer is an excellent choice for remotely rebooting a computer because it provides a <b>user-friendly interface, secure connections, and real-time control</b>. It allows you to access another computer remotely, troubleshoot issues, and restart it without hassle.</span></span></span></p>
+
+<h3 style="margin-bottom: 11px;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Step-by-Step Guide to Restart a Computer with UltraViewer</b></span></span></span></h3>
+
+<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Step 1: Install and Set Up UltraViewer</b></span></span></span></p>
+
+<ul>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Download and install <b>UltraViewer</b> on both the local and remote computers.</span></span></span></span></li>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Launch the software and note down the <b>Partner ID</b> and <b>Password</b> displayed on the remote computer.</span></span></span></span></li>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">On the local computer, enter the remote computer&rsquo;s <b>Partner ID</b> and click <b>&quot;Connect to partner.&quot;</b></span></span></span></span></li>
+</ul>
+
+<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Step 2: Remotely Restart the Unresponsive Computer</b></span></span></span></p>
+
+<ul>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Once connected, you will see the remote desktop on your screen.</span></span></span></span></li>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Click the <b>Start Menu</b> on the remote PC.</span></span></span></span></li>
+	<li style="margin-bottom:11px"><span style="font-size:11pt"><span style="tab-stops:list .5in"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">Select the <b>Power Icon</b>, then click <b>Restart</b> to reboot the computer.</span></span></span></span></li>
+</ul>
+
+<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>For a detailed walkthrough, visit the <a href="200000233-how-to-remotely-restart-or-shutdown-a-pc.html" style="color:#0563c1; text-decoration:underline" target="_new">UltraViewer guide</a>.</b></span></span></span></p>
+
+<p style="margin-bottom:11px"><em data-end="3570" data-start="3465">If the remote computer becomes unresponsive after rebooting, reconnect to UltraViewer once it restarts.</em></p>
+
+<hr data-end="4936" data-start="4933" />
+<h2 data-end="5005" data-start="4938"><strong data-end="3635" data-start="3582">Restarting a Remote Computer via Command Prompt (CMD)&nbsp;</strong></h2>
+
+<h3 data-end="3679" data-start="3639"><strong data-end="3677" data-start="3643">Why Use CMD for Remote Reboot?</strong></h3>
+
+<p data-end="3883" data-start="3680">Command Prompt (CMD) is a built-in Windows tool that allows users to send remote commands to another computer on the same network. It&rsquo;s a fast and effective solution if you have the proper permissions.</p>
+
+<h3 data-end="3945" data-start="3885"><strong data-end="3943" data-start="3889">Step-by-Step Guide to Restart a Computer Using CMD</strong></h3>
+
+<h4 data-end="4011" data-start="3947"><strong data-end="4009" data-start="3952">Step 1: Enable Remote Commands on the Target Computer</strong></h4>
+
+<p data-end="4251" data-start="4012">Before running the remote reboot command, ensure that:</p>
+
+<ul>
+	<li data-end="4251" data-start="4012">File and printer sharing is enabled on the remote computer.</li>
+	<li data-end="4251" data-start="4012">The firewall allows remote shutdown commands.</li>
+	<li data-end="4251" data-start="4012">You have administrator access on the remote machine.</li>
+</ul>
+
+<h4 data-end="4307" data-start="4253"><strong data-end="4305" data-start="4258">Step 2: Execute the Remote Shutdown Command</strong></h4>
+
+<p style="text-align:center"><img alt="Restarting a Remote Computer via Command Prompt " height="767" src="../ckfinder/userfiles/images/Restarting-a-Remote-Computer-via-Command-Prompt.jpg" width="1350" /></p>
+
+<ul data-end="4811" data-start="4308">
+	<li data-end="4381" data-start="4308">
+	<p data-end="4381" data-start="4311">On your local computer, open <strong data-end="4358" data-start="4340">Command Prompt</strong> as an administrator.</p>
+	</li>
+	<li data-end="4722" data-start="4382">
+	<p data-end="4434" data-start="4385">Type the following command and press <strong data-end="4431" data-start="4422">Enter</strong>:</p>
+
+	<p><code><span style="background-color:#bdc3c7;">shutdown /r /m \\\\RemoteComputerName /t 0 </span></code></p>
+	Replace <strong data-end="4539" data-start="4515">&quot;RemoteComputerName&quot;</strong> with the actual <strong data-end="4572" data-start="4556">network name</strong> or <strong data-end="4590" data-start="4576">IP address</strong> of the remote PC. The <strong data-end="4628" data-start="4620">&quot;/r&quot;</strong> switch forces a restart, and <strong data-end="4668" data-start="4658">&quot;/t 0&quot;</strong> sets the restart timer to zero (immediate restart).</li>
+	<li data-end="4811" data-start="4724">
+	<p data-end="4811" data-start="4727">If everything is configured correctly, the remote computer will restart instantly.</p>
+	</li>
+</ul>
+
+<p data-end="4931" data-start="4813"><em data-end="4929" data-start="4816">If the command fails, verify that the remote computer&rsquo;s firewall and network permissions allow remote commands.</em></p>
+
+<hr data-end="4936" data-start="4933" />
+<h2 data-end="5005" data-start="4938"><strong data-end="5003" data-start="4941">Rebooting a Remote PC&nbsp;with Remote Desktop Protocol (RDP)&nbsp;</strong></h2>
+
+<h3 data-end="5055" data-start="5007"><strong data-end="5053" data-start="5011">Why Use Remote Desktop Protocol (RDP)?</strong></h3>
+
+<p data-end="5255" data-start="5056">Remote Desktop Protocol (RDP) is a built-in Windows feature that provides full access to another computer. Unlike CMD, which only sends commands, RDP allows complete control over the remote system.</p>
+
+<h3 data-end="5317" data-start="5257"><strong data-end="5315" data-start="5261">Step-by-Step Guide to Restart a Computer Using RDP</strong></h3>
+
+<h4 data-end="5382" data-start="5319"><strong data-end="5380" data-start="5324">Step 1: Enable Remote Desktop on Remote&nbsp;Computer</strong></h4>
+
+<ul data-end="5555" data-start="5383">
+	<li data-end="5457" data-start="5383">On the remote&nbsp;computer, go to <strong data-end="5454" data-start="5416">Settings &gt; System &gt; Remote Desktop</strong>.</li>
+	<li data-end="5501" data-start="5458">Toggle <strong data-end="5495" data-start="5468">&quot;Enable Remote Desktop&quot;</strong> on.</li>
+	<li data-end="5555" data-start="5502">Note down the <strong data-end="5552" data-start="5519">computer&rsquo;s name or IP address</strong>.</li>
+</ul>
+
+<h4 data-end="5614" data-start="5557"><strong data-end="5612" data-start="5562">Step 2: Connect to the Remote Computer via RDP</strong></h4>
+
+<ul data-end="5877" data-start="5615">
+	<li data-end="5695" data-start="5615">On your local PC, press <strong data-end="5657" data-start="5642">Windows + R</strong>, type <code data-end="5673" data-start="5664">&quot;mstsc&quot;</code>, and hit <strong data-end="5692" data-start="5683">Enter</strong>.</li>
+	<li data-end="5813" data-start="5696">In the <strong data-end="5735" data-start="5706">Remote Desktop Connection</strong> window, enter the <strong data-end="5788" data-start="5754">remote PC&rsquo;s name or IP address</strong> and click <strong data-end="5810" data-start="5799">Connect</strong>.</li>
+	<li data-end="5877" data-start="5814">Enter your credentials and sign in to the remote computer.</li>
+</ul>
+
+<h4 data-end="5925" data-start="5879"><strong data-end="5923" data-start="5884">Step 3: Restart the Remote Computer</strong></h4>
+
+<ul data-end="6110" data-start="5926">
+	<li data-end="5989" data-start="5926">Once connected, click the <strong data-end="5969" data-start="5955">Start Menu</strong> on the remote PC.</li>
+	<li data-end="6043" data-start="5990">Select the <strong data-end="6018" data-start="6004">Power Icon</strong> and click <strong data-end="6040" data-start="6029">Restart</strong>.</li>
+	<li data-end="6110" data-start="6044">Wait for the reboot to complete, then reconnect if necessary.</li>
+</ul>
+
+<h3 data-end="6183" data-start="6112"><strong data-end="6181" data-start="6116">Alternative RDP Reboot Method (If Start Menu is Unresponsive)</strong></h3>
+
+<p data-end="6271" data-start="6184">If the remote PC is frozen and the <strong data-end="6246" data-start="6219">Start Menu doesn&rsquo;t work</strong>, use <strong data-end="6268" data-start="6252">Task Manager</strong>:</p>
+
+<ol data-end="6430" data-start="6272">
+	<li data-end="6321" data-start="6272">Press <strong data-end="6301" data-start="6281">Ctrl + Alt + End</strong> on your keyboard.</li>
+	<li data-end="6381" data-start="6322">Click <strong data-end="6343" data-start="6331">Sign Out</strong> and wait for the system to log off.</li>
+	<li data-end="6430" data-start="6382">Reconnect via RDP and try restarting again.</li>
+</ol>
+
+<div align="center" style="text-align:center; margin-bottom:11px">
+<hr align="center" size="2" width="100%" /></div>
+
+<h2 style="margin-bottom: 11px;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Conclusion</b></span></span></span></h2>
+
+<p style="margin-bottom:11px">Knowing how to remotely reboot unresponsive computers is essential for IT professionals, remote workers, and tech support teams. Whether you use UltraViewer, Command Prompt (CMD), or Remote Desktop Protocol (RDP), each method provides a unique way to restart a frozen system efficiently.</p>
+
+<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>Quick Summary of Methods:</b></span></span></span></p>
+
+<ul>
+	<li style="margin-bottom: 11px;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>UltraViewer</b> &ndash; Best for easy remote access with a simple interface.</span></span></span></li>
+	<li style="margin-bottom: 11px;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>CMD (Command Prompt)</b> &ndash; Fast and effective for networked computers with admin privileges.</span></span></span></li>
+	<li style="margin-bottom: 11px;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><b>RDP (Remote Desktop Protocol)</b> &ndash; Ideal for full remote control and troubleshooting.</span></span></span></li>
+</ul>
+
+<p style="margin-bottom:11px"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif">By following these step-by-step guides, you can <b>remotely restart an unresponsive PC</b> without needing physical access. Choose the method that best suits your situation and keep your workflow uninterrupted!&nbsp;</span></span></span></p>
+
+<div align="center" style="text-align:center; margin-bottom:11px">
+<hr align="center" size="2" width="100%" /></div>
+
+				
+				
+                <!--<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>-->
+                </div>
+				</div>
+			</div><!-- /# end post -->
+            
+            <div class="clearfix divider_line"></div>
+
+            <script type="text/javascript">
+			function showPopup(url) {
+			var winHeight = 620;
+			var winWidth = 520;
+			var winTop = 0; //(screen.height / 2) - (winHeight / 2);
+			var winLeft = (screen.width / 2) - (winWidth / 2);
+			window.open( url, "myWindow", "top=" + winTop + ",left=" + winLeft + ", status = 1, height = " + winHeight + ", width = " + winWidth + ", resizable = yes, scrollbars=yes" )
+			}
+			</script>
+			
+            <div class="sharepost">
+				<h4>Share this post</h4>
+					<ul>
+						<li><a href="javascript:showPopup('https://www.facebook.com/sharer/sharer.php?u=/en/200000270-remotely-reboot-unresponsive-computers.html');"><img src="../images/blog/facebook.png" alt="" /></a></li>
+						<li><a href="javascript:showPopup('https://twitter.com/share?url=/en/200000270-remotely-reboot-unresponsive-computers.html');"><img src="../images/blog/twitter.png" alt="" /></a></li>
+						<li><a href="javascript:showPopup('https://plus.google.com/share?url=/en/200000270-remotely-reboot-unresponsive-computers.html');"><img src="../images/blog/google-plus.png" alt="" /></a></li>
+						<li><a href="javascript:showPopup('https://www.linkedin.com/cws/share?url=/en/200000270-remotely-reboot-unresponsive-computers.html');"><img src="../images/blog/linkedin.png" alt="" /></a></li>
+					</ul>
+				
+				</div><!-- end share post links -->
+                
+                <div class="clearfix"></div>
+                
+                <h4>About author</h4>
+				<div class="about_author">
+				
+					<img src="../images/blog/tracy-tran-anime-avatar.png" alt="" />
+					
+					<a href="#" target="_blank"><strong>Tracy Tran</strong></a><br />
+                   We specialize in providing the most up-to-date knowledge and information on computer tips and software to control remote computers. Connect for work 24/7
+				</div><!-- end about author -->
+            
+            <div class="clearfix mar_top3"></div>
+          
+      <div class="one_half"> 
+         <div class="popular-posts-area">
+            <h4>New post</h4>
+				<ul class="recent_posts_list">
+				
+					<li>
+					  	<span><a href="#"><img src="../ckfinder/userfiles/ducfabulous/images/turn-off-clipboard-sharing.png" style="width:50px; height: 50px;" alt="How to Turn Off Clipboard Sharing in UltraViewer" /></a></span>
+						<a href="200000301-how-to-turn-off-clipboard-sharing-in-ultraviewer.html">How to Turn Off Clipboard Sharing in UltraViewer</a>
+						 <i>23 September, 2025</i> 
+					</li>
+                
+					<li>
+					  	<span><a href="#"><img src="../ckfinder/userfiles/bichngoc/images/click-Uninstall.png" style="width:50px; height: 50px;" alt="How to Uninstall UltraViewer" /></a></span>
+						<a href="200000295-how-to-Uninstall-UltraViewer.html">How to Uninstall UltraViewer</a>
+						 <i>23 May, 2025</i> 
+					</li>
+                	
+				</ul>
+				
+			</div>
+       </div><!-- end recent posts -->
+       
+       
+       <div class="one_half last"> 
+         <div class="popular-posts-area">
+            <h4>Related post</h4>
+				<ul class="recent_posts_list">
+				
+					<li>
+					  	<span><a href="#"><img src="../ckfinder/userfiles/ducfabulous/images/turn-off-clipboard-sharing.png" style="width:50px; height: 50px;" alt="How to Turn Off Clipboard Sharing in UltraViewer" /></a></span>
+						<a href="#">How to Turn Off Clipboard Sharing in UltraViewer</a>
+						 <i>23 September, 2025</i> 
+					</li>
+					
+                
+					<li>
+					  	<span><a href="#"><img src="../ckfinder/userfiles/bichngoc/images/click-Uninstall.png" style="width:50px; height: 50px;" alt="How to Uninstall UltraViewer" /></a></span>
+						<a href="#">How to Uninstall UltraViewer</a>
+						 <i>23 May, 2025</i> 
+					</li>
+					
+                
+				</ul>
+				
+			</div>
+       </div><!-- end popular posts -->
+            
+    <div class="clearfix divider_line"></div>
+
+
+	<div class="mar_top_bottom_lines_small3"></div>
+	
+	 <div id="comment_place_holder">
+		<div class="comment_form" id="comment_form" >
+			
+			<h4>Write comments <a id="cancelreply" class="cancelreply" style="display:inline; font-size:13px; color:#25aae2 !important; margin-left:20px; visibility: hidden;">(Cancel Reply)</a></h4>
+
+			
+			<form name="commentform" id="commentform" method="post" onsubmit="return validateform()">
+					<input type="hidden" name="action" value="comment"/>
+					<input type="hidden" name="replytoid" value="0"/>
+
+					<input type="text" name="authorname" id="name" class="comment_input_bg" value=""/>
+					<label for="name">Your Name*</label>
+					
+					<input type="text" name="email" id="mail" class="comment_input_bg" value="" />
+					<label for="mail">Email*</label>
+										
+					<textarea name="comment" id="txtcomment" class="comment_textarea_bg" rows="20" cols="7" ></textarea>
+					<input type="hidden" id="sec-check" name="sec-check" value="">
+
+					<div class="clearfix"></div> 
+					<img src="../generatecaptcha.aspx"/>
+					<div class="clearfix"></div> 
+					<input style="width: 100px;"  type="text" name="captcha" id="captcha" class="comment_input_bg" />
+					<input type="hidden" name="captchahash" id="captchahash" value="f619be9671c2067417b187f98b3cf96d">
+					<label for="mail">Captcha Code</label>
+					
+
+					<div class="clearfix"></div> 
+					<br><br>
+
+					<!--begin captcha-->
+					<!--
+					<div class="clearfix"></div> 
+					<form method="post" action="GoogleCaptcha.asp">
+					<div class="g-recaptcha" data-sitekey="6LcBMRgTAAAAAKD38zQcF09GbAcfKmE_64avEGJX"></div>
+					</form>
+					<div class="clearfix"></div> 
+					<p></p>
+					</br>
+					-->
+					<!--end captcha-->
+					<div class="clearfix"></div> 
+					<input name="send" type="submit" value="Submit comment" class="comment_submit"/>
+					<p></p>
+					<p class="comment_checkbox"><input type="checkbox" name="check" /> Notify me of followup comments via e-mail</p>
+				
+				
+			</form>
+	
+			</div><!-- end comment form -->
+       </div>    
+	
+	
+	
+	<script type="text/javascript" src="../js/page/blogpost.js" defer></script>
+		
+	
+          <div class="clearfix mar_top2"></div>  
+            
+        </div><!-- end content left area -->
+
+
+<!-- right sidebar starts -->
+<div class="right_sidebar">
+	
+    <div class="site-search-area">
+        <form method="get" id="site-searchform" action="https://www.ultraviewer.net/en/blog.html">
+        <div>
+        <input class="input-text" name="s" id="s" value="Search..." onFocus="if (this.value == 'Search...') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Search...';}" type="text" />
+        <input id="searchsubmit" value="Search" type="submit" />
+        </div>
+        </form>
+	</div><!-- end site search -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+	<div class="sidebar_widget">
+    	<div class="sidebar_title"><h3>Categories</h3></div>
+		<ul class="arrows_list1">		
+            <li><a href="blog25d9.html?category=news">News</a></li>
+			<li><a href="blogb30d.html?category=help">Tutorial</a></li>
+            <li><a href="blog8928.html?category=tips">Tips</a></li>
+		</ul>
+	</div><!-- end section -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+    <div class="sidebar_widget">
+    
+    	<div class="sidebar_title"><h3>Top viewed</h3></div>
+        
+			
+
+<ul class="recent_posts_list">
+                
+                <li>
+                <span><a href="#"><img src="../images/upload/teamviewer-commercial-use-detected.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="99-teamviewer-commercial-use-detected.html">How To Fix TeamViewer Commercial Use Detected Quickly And Easily</a>
+                <i>11 tháng 10, 2015</i> 
+                </li>
+                
+                <li>
+                <span><a href="#"><img src="../images/upload/ultraviewer-teamviewer-alternative.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="100-ultraviewer-best-free-alternative-to-Teamviewer.html">UltraViewer - The Best Free Alternative To Teamviewer {year}</a>
+                <i>11 tháng 10, 2015</i> 
+                </li>
+                
+                <li class='last'>
+                <span><a href="#"><img src="../images/home/phan-mem-dieu-khien-may-tinh-tu-xa.png" style="width:50px; height:50px;" alt="System.__ComObject" /></a></span>
+                <a href="98-what-is-ultraviewer.html">What is UltraViewer?</a>
+                <i>10 tháng 10, 2015</i> 
+                </li>
+                
+            </ul>
+                
+	</div><!-- end section -->
+    
+    <div class="clearfix mar_top3"></div>
+    
+   	<div class="sidebar_widget">
+    	<h3>Links</h3>
+				<!-- Ad side-->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-9282100529336347"
+				 data-ad-slot="2310835193"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			
+			<br>
+			
+				<!-- Ad side-->
+			<ins class="adsbygoogle"
+				 style="display:block"
+				 data-ad-client="ca-pub-9282100529336347"
+				 data-ad-slot="2310835193"
+				 data-ad-format="auto"
+				 data-full-width-responsive="true"></ins>
+			<script>
+				 (adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+			
+	</div><!-- end section -->
+    
+
+    
+</div><!-- end right sidebar -->
+
+
+</div>
+
+
+
+<div class="clearfix"></div>
+
+
+<div class="container_full">
+
+	<div class="twitter_feed">
+    
+        <div class="container">
+        
+            <img src="../images/twitter-bird.png" alt="" class="image_left1" width="58" height="58">
+            
+            <div class="tweets"><strong>The remote desktop control software UltraViewer</strong> has reached a new milestone in terms of global user base. We are constantly working to improve the product to meet users' needs. Please feel free to send us your feedback and suggestions.<br />
+                
+			</div>
+        
+        </div>
+    
+	</div>
+
+</div>
+
+
+
+<!-- Footer
+======================================= -->
+
+<div id="footer">
+	
+    <div class="container">
+    	
+        <div class="column">
+        
+        	<h2>About UltraViewer</h2>
+            <p>UltraViewer is a popular and continually developing free remote desktop control software. We're leading in technology innovation of the global. We will give you the best things to improve your life quality.</p>
+        
+        </div><!-- end about -->
+        
+		<!--
+        <div class="column">
+        
+        	<h2>Blog gần đây</h2>
+                    
+            <ul class="recent_blogs">
+            
+                <li>
+                    <img src="/images/post-simg7.jpg" alt="" />
+                    <a href="#">Làm thế nào để thu hút khách hàng về với sản phẩm</a>
+                    <i>June 27, 2013</i>
+                </li>
+                <li>
+                    <img src="/images/post-simg8.jpg" alt="" />
+                    <a href="#">Majority have super ateration</a>
+                    <i>June 26, 2013</i>
+                </li>
+                <li class="last">
+                    <img src="/images/post-simg9.jpg" alt="" />
+                    <a href="#">Many desktop push packages</a>
+                    <i>June 25, 2013</i>
+                </li>
+            </ul>
+        
+        </div>--><!-- end recent blogs -->
+        <div class="column">
+        
+        	<h2>Product</h2>
+            
+            <ul class="list">
+			<li><a href="download.html">Download</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+			
+            <li><a href="tos.html">Term of services</a></li>
+			<li><a href="privacy.html">Privacy</a></li>
+			
+            </ul>
+        
+        </div><!-- end support links -->
+		
+        <div class="column">
+        
+        	<h2>Help</h2>
+            
+            <ul class="list">
+			<li><a href="faq84f5.html?filter=installation">How to install</a></li>
+            <li><a href="faqeebc.html?filter=using">How to use</a></li>
+			<li><a href="faqa67f.html?filter=licensing">How to buy</a></li>
+			<li><a href="faq53fb.html?filter=security">Security</a></li>
+			
+			<li><a href="blog.html">Blog</a></li>
+            </ul>
+        
+        </div><!-- end support links -->
+        
+        <div class="column">
+		
+			<h2>Contact us</h2>
+            
+            <ul class="address-liste">
+			
+                <!--<li class="icon3">0123-4567-8900</li>-->
+                <li class="icon4"><a href="mailto:support-en@ultraviewer.net">support-en@ultraviewer.net</a></li>
+                <li class="icon4"><a href="mailto:sales@ultraviewer.net">sales@ultraviewer.net</a></li>
+				
+				<li class="icon4"><a target="_blank" href="../report-scam.html">Report scam</a></li>
+            </ul>
+        
+        </div><!-- end address -->
+        
+        <div class="column last">
+        
+        	<h2>Follow us</h2>
+            
+            <ul class="social_list"> 
+            	<li><a target="_blank" href="http://facebook.com/ultraviewer"><img src="../images/social-icon1.png" alt="Facebook" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon2.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon3.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon4.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon5.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon6.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon7.png" alt="" width="20" height="20"/></a></li>
+                <li><a><img src="../images/social-icon8.png" alt="" width="20" height="20"/></a></li>
+            </ul>
+            
+            <div class="clearfix"></div>
+        	
+			
+			
+        </div><!-- end socails -->
+    
+    </div>
+    
+    <div class="clearfix"></div>
+    <div class="mar_top2"></div>
+    
+    <div class="container">
+    
+    	<div class="h_column_area">
+        
+        	<div class="newsletter">
+            
+            	<img src="../images/newsletter-icon.png" alt="" class="image_left1" width="28" height="40"/><h4>Newsletter<br />Signup</h4>
+                
+                <form method="get" action="https://www.ultraviewer.net/">   
+					<input class="enter_email_input" name="samplees" id="samplees" value="Enter your email address" onFocus="if(this.value == 'Enter your email address') {this.value = '';}" onBlur="if (this.value == '') {this.value = 'Enter your email address';}" type="text">
+					<input name="" value="Subscribe" class="input_submit" type="submit">
+					</form>
+                
+            </div><!-- end newsletter sign up -->
+        	
+            
+            <div class="clients">
+            
+            	<h4>Our Clients<br />Partners</h4>
+                
+                <ul class="clients_list">
+				
+                	<li><img src="../images/client-logo1.png" alt="" width="76" height="40"/></li>
+                    <li><img src="../images/client-logo2.png" alt="" width="120" height="40"/></li>
+                    <li><img src="../images/client-logo3.png" alt="" width="100" height="40" /></li>
+					
+                </ul>
+            
+            </div><!-- end client logos -->
+            
+            
+        </div>
+    
+    </div>
+    
+
+</div>
+
+
+<div class="copyright_info">
+    
+    	<div class="container">
+        
+    	<div class="one_half">
+        	<span><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></span>
+                    
+        </div>
+        
+        <div class="one_half last"><b>@ Copyright UltraViewer 2026 | All Rights Reserved<sup>TM</sup></b></div>
+		
+        
+        
+		</div>
+        
+</div><!-- end copyright info --> 
+
+
+    
+
+
+
+<a href="#" class="scrollup">Scroll</a><!-- end scroll to top of the page-->
+   
+   
+
+</div>
+
+    
+
+
+<script defer type="text/javascript" src="../js/page/global.js"></script>
+<script defer type="text/javascript" src="../js/accordion/custom_gzip.js"></script>
+
+
+
+
+
+</body>
+
+<!-- Mirrored from www.ultraviewer.net/en/200000270-remotely-reboot-unresponsive-computers.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 04 May 2026 13:49:46 GMT -->
+</html>
