@@ -1,0 +1,120 @@
+/* ===== CSS CHO POPUP ===== */
+
+/* Khung chứa popup mở rộng */
+#popup-expanded-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 350px; 
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    z-index: 99999;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Nội dung popup */
+#popup-content {
+    padding: 0; 
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    position: relative; 
+}
+
+/* Nút đóng (dấu X) - GÓC TRÁI */
+#popup-close-btn {
+    position: absolute; 
+    top: 10px;          
+    left: 10px;         /* Góc trái */
+    background: rgba(0, 0, 0, 0.4); 
+    border: none;
+    color: #ffffff;     
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1;
+    padding: 2px 8px;
+    margin: 0;
+    border-radius: 50%; 
+    z-index: 10;        
+}
+#popup-close-btn:hover {
+    background: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+}
+
+/* Style cho ảnh trong popup */
+#popup-content a {
+    display: block;
+    text-decoration: none;
+}
+#popup-content img {
+    width: 100%;
+    height: auto;       
+    object-fit: contain; 
+    background: #fff;   
+    display: block;
+    transition: transform 0.3s ease; 
+    border-radius: 8px;
+}
+#popup-content img:hover {
+    transform: scale(1.03); 
+}
+
+/* ===== TRẠNG THÁI THU NHỎ ===== */
+#popup-collapsed-icon {
+    display: none; 
+    position: fixed !important;
+    top: 25% !important;
+    right: 20px !important;
+    z-index: 9999 !important;
+}
+
+#popup-collapsed-wrapper {
+    width: 85px; 
+    height: 85px;
+    position: relative;
+}
+
+#popup-collapsed-close-btn {
+    cursor: pointer !important; 
+    user-select: none !important; 
+    line-height: 35px !important; 
+    height: 24px !important; 
+    width: 24px !important; 
+    display: flex !important; 
+    align-items: center !important; 
+    justify-content: center !important; 
+    position: absolute !important; 
+    box-sizing: border-box !important; 
+    background: rgb(230, 230, 230) !important; 
+    top: 0px !important; 
+    right: 5px !important; 
+    border-radius: 20px !important; 
+    border: 0.3px solid rgb(0, 0, 0) !important; 
+    z-index: 9999 !important;
+    padding: 0;
+}
+
+#popup-collapsed-img-wrapper {
+    width: 100%; 
+    border-radius: 0%; 
+    overflow: hidden; 
+    height: 100%;
+}
+
+#popup-collapsed-link {
+    width: 100%; 
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+#popup-collapsed-img-bg {
+    background: url("https://server.zmedia.vn/static/cdn/cuoi_thang_sale_50.png") 0% 0% / contain no-repeat; 
+    width: 100%; 
+    height: 100%;
+}
