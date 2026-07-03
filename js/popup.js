@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var closeBtn = document.getElementById('popup-close-btn');
     var collapsedCloseBtn = document.getElementById('popup-collapsed-close-btn');
     var collapsedLink = document.getElementById('popup-collapsed-link');
-    var shopeeLink = "https://s.shopee.vn/809N7Xk2CP"; // Link Shopee chung
+    var shopeeLink = "https://amzn.to/44eQ3W2"; // Link Shopee chung
 
     // Kiểm tra xem các phần tử có tồn tại trên trang không để tránh lỗi JS
     if (!expandedBox || !collapsedIcon) return;
